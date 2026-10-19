@@ -1,0 +1,83 @@
+{
+  "audit": "MCC5_RAMEF_CONFIRMATORY_FULL_DATA_P1",
+  "root": "D:\\MCC5-THU Motor\\MCC5-THU Motor",
+  "model_predictions_used": false,
+  "total_csv_files": 288,
+  "mode_counts": {
+    "speed_circulation": 144,
+    "torque_circulation": 144
+  },
+  "all_structure_ok": true,
+  "structure_failures": [],
+  "exact_duplicate_groups": [],
+  "pure_speed_class_counts": {
+    "IR": 11,
+    "N": 6,
+    "OR": 13
+  },
+  "localisation_speed_class_counts": {
+    "IR": 35,
+    "N": 54,
+    "OR": 37
+  },
+  "speed_context_counts": {
+    "ball": 12,
+    "compound_IR": 24,
+    "compound_OR": 24,
+    "dual_race": 6,
+    "health": 6,
+    "non_bearing_fault": 48,
+    "pure": 24
+  },
+  "profile_counts": {
+    "IR_1000": 12,
+    "IR_2000": 12,
+    "IR_3000": 11,
+    "N_1000": 18,
+    "N_2000": 18,
+    "N_3000": 18,
+    "OR_1000": 12,
+    "OR_2000": 12,
+    "OR_3000": 13
+  },
+  "selected_speed_runs": 126,
+  "all_selected_keyphase_ok": true,
+  "keyphase_failures": [],
+  "channel_choice": {
+    "column_one_based": 4,
+    "meaning": "motor drive-end horizontal radial vibration",
+    "selection_basis": "dataset article Table 4; frozen without model performance"
+  },
+  "bearing_orders": {
+    "BPFO": 3.585,
+    "BPFI": 5.415,
+    "BSF": 2.357
+  },
+  "block_protocol": {
+    "window_samples": 3072,
+    "duration_seconds": 0.24,
+    "local_starts_seconds": [
+      18.0,
+      18.24,
+      18.48,
+      18.72,
+      18.96,
+      19.2,
+      19.44,
+      19.68
+    ],
+    "distributed_starts_seconds": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0
+    ],
+    "single_local_index_zero_based": 3,
+    "equal_m8_samples": 24576
+  },
+  "p1_gate": true
+}

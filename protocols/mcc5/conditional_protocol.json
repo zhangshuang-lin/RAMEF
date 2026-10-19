@@ -1,0 +1,55 @@
+{
+  "protocol": "MCC5_RAMEF_BEARING_LOCALISATION_V1",
+  "status": "CONDITIONAL_METADATA_PASS",
+  "selection_seed": "MCC5_RAMEF_LOCALISATION_V1_20260824",
+  "waveforms_used_for_split": false,
+  "model_outputs_used_for_split": false,
+  "task_semantics": {
+    "N": "no inner/outer-race bearing fault; includes healthy and non-bearing motor faults",
+    "IR": "pure or compound inner-race bearing fault",
+    "OR": "pure or compound outer-race bearing fault",
+    "excluded": "ball-bearing faults"
+  },
+  "domain_roles": {
+    "source": "3000-rpm-tagged speed-circulation runs",
+    "source_validation": "2000-rpm-tagged speed-circulation runs",
+    "target_support_query": "1000-rpm-tagged speed-circulation runs"
+  },
+  "counts_by_role": {
+    "source": 42,
+    "source_validation": 42,
+    "target_query": 27,
+    "target_support": 15
+  },
+  "counts_by_role_and_class": {
+    "source_N": 18,
+    "source_IR": 11,
+    "source_OR": 13,
+    "source_validation_N": 18,
+    "source_validation_IR": 12,
+    "source_validation_OR": 12,
+    "target_support_N": 5,
+    "target_support_IR": 5,
+    "target_support_OR": 5,
+    "target_query_N": 13,
+    "target_query_IR": 7,
+    "target_query_OR": 7
+  },
+  "support_rule": "per class, SHA256 order selects 3 runs at 20 Nm and 2 runs at 40 Nm",
+  "block_protocol_draft": {
+    "sample_rate_hz": 12800,
+    "block_samples": 3072,
+    "nominal_rotations_at_1000rpm": 4.0,
+    "single": "one preregistered local block",
+    "local_m8": "eight contiguous non-overlapping blocks within a stable high plateau",
+    "distributed_m8": "eight non-overlapping blocks spread over the 90-s speed profile",
+    "equal_m8_input_samples": 24576
+  },
+  "remaining_gates": [
+    "all selected files must decode to time plus eight synchronous channels",
+    "keyphase must provide valid speed coverage for all selected files",
+    "bearing specimen identity is not documented; claims are run-disjoint, not specimen-disjoint",
+    "BPFO/BPFI order constants must be taken from the dataset article, not tuned on query"
+  ],
+  "manifest_sha256": "1fbf6660faee7baa4b9aa8655136190247932928812c6c67c68a7a4712649941"
+}

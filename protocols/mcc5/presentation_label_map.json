@@ -1,0 +1,13 @@
+{
+  "dataset": "MCC5-THU Motor",
+  "status": "post-evaluation semantic clarification",
+  "changes_predictions": false,
+  "labels": {
+    "0": "NRF",
+    "1": "IR",
+    "2": "OR"
+  },
+  "NRF_expansion": "No Race Fault",
+  "NRF_is_not": ["normal motor", "globally healthy machine"],
+  "task_name": "cross-speed bearing-race localisation under structured motor-fault nuisances"
+}
