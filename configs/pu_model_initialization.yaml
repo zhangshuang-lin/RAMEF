@@ -1,0 +1,58 @@
+model:
+  num_classes: 3
+  lite: true
+  n_fft: 1024
+  hop_length: 256
+  win_length: 1024
+  order_min: 0.5
+  order_max: 256.0
+  order_bins: 256
+  cyclic_orders:
+  - 0.5
+  - 1.0
+  - 1.5
+  - 2.0
+  - 2.5
+  - 3.0
+  - 3.5
+  - 4.0
+  use_refined_cyclic_anchors: false
+  refined_cyclic_anchors:
+  - 1.0
+  - 2.05
+  - 3.05
+  - 4.0
+  - 4.95
+  - 5.95
+  cyclic_anchor_sigma: 0.2
+  late_fusion: false
+  use_low_order_branch: false
+  use_speed_adapter: true
+  speed_adapter_ratio: 8
+  speed_reference_rpm: 1500.0
+  use_iror_physics_branch: false
+  physics_use_temporal_stability: true
+  physics_anchors:
+  - 1.0
+  - 2.05
+  - 3.05
+  - 4.05
+  - 3.95
+  - 4.95
+  - 5.95
+  physics_anchor_sigma: 0.25
+  physics_fusion_max: 0.25
+  support_conditioned_gate: false
+  long_window_length: 32768
+  low_order_bins: 128
+  low_order_max: 12.0
+  low_order_bands:
+  - - 500.0
+    - 2500.0
+  - - 2500.0
+    - 6000.0
+  - - 6000.0
+    - 12000.0
+  out_size:
+  - 128
+  - 64

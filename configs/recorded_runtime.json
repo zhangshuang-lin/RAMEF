@@ -1,0 +1,19 @@
+{
+  "recorded_experiment_python": "3.13.13",
+  "torch": "2.12.0+cu126",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "PyYAML": "6.0.3",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.9",
+    "pandas": "3.0.3"
+  },
+  "notes": [
+    "Standard-library replay needs no ML installation.",
+    "No claim is made about remote availability of historical PyTorch wheels.",
+    "Conda build-machine paths and pip-freeze direct file URLs are intentionally not shipped."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "pu": {
+    "window": 16384,
+    "sample_rate": 64000,
+    "blocks": 8,
+    "source_train": 816,
+    "source_validation": 204,
+    "calibration_source": 1020,
+    "support_per_class": 5,
+    "unique_query": 171,
+    "source_training_observation": "one centre crop per source measurement",
+    "encoder_frontend": "hz",
+    "additional_adapters_and_gates": false,
+    "epochs": 12,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 12,
+    "support_weight": 10,
+    "C": 0.1,
+    "physical_dimension": 63
+  },
+  "mcc5": {
+    "window": 3072,
+    "sample_rate": 12800,
+    "blocks": 8,
+    "source_train": 42,
+    "source_validation": 42,
+    "calibration_source": 42,
+    "support_per_class": 5,
+    "query": 27,
+    "source_weight": "class-balanced to mean1",
+    "support_weight": 10,
+    "C": 0.1,
+    "physical_dimension": 63,
+    "seeds": [
+      20261101,
+      20261102,
+      20261103,
+      20261104,
+      20261105
+    ]
+  }
+}
