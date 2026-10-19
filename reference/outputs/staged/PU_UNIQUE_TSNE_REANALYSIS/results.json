@@ -1,0 +1,58 @@
+{
+  "status": "ORIGINAL_TSNE_METRICS_REPRODUCED_THEN_UNIQUE_ID_REANALYSED",
+  "query_unique": 171,
+  "reference_fit_unchanged": true,
+  "tsne_coordinates_refit": false,
+  "new_target_selection": false,
+  "input_sha256": {
+    "paper\\figures\\source_data\\FigS4_tsne_coordinates.csv": "9a7206b2e6d9e68bb78b6f8b3ce809ff5e0e106a6856a3952030a492e96c4251",
+    "paper\\figures\\source_data\\FigS4_tsne_geometry_metrics.csv": "bb0ef17858d58ee90ac03c651d8949b45b9e508137eea24f75543899e71cff67",
+    "outputs\\staged\\RACP_OR_INFORMATION_P0\\authorised_source_support_features.npz": "13d37c829c717272be516ca702f8920d5d059ede4c8d921639d43fb16542f29e",
+    "outputs\\staged\\RACP_MEASUREMENT_FINAL\\query_features\\authorised_source_support_features.npz": "fc4ae0181d1891912ef0b2a4d22defc9b7115dbbcc08050a6a37b62a85a3a298"
+  },
+  "unique_coordinates_sha256": "3d7f8726347be4be7841eb2a45ec7a4fde186f9b2024084f4ea2456e8b360fd4",
+  "results": {
+    "Centre crop": {
+      "registered_entries": {
+        "silhouette_high_dim": 0.18825751543045044,
+        "silhouette_tsne": 0.16211638671464906,
+        "reference_5nn_query_accuracy": 0.7916666666666666,
+        "locked_query_errors": 26
+      },
+      "unique_measurements": {
+        "silhouette_high_dim": 0.19602620601654053,
+        "silhouette_tsne": 0.14091663531476592,
+        "reference_5nn_query_accuracy": 0.7953216374269005,
+        "locked_query_errors": 19
+      }
+    },
+    "U2-Hz-DM8": {
+      "registered_entries": {
+        "silhouette_high_dim": 0.2539602816104889,
+        "silhouette_tsne": 0.22506461822899357,
+        "reference_5nn_query_accuracy": 0.8875,
+        "locked_query_errors": 6
+      },
+      "unique_measurements": {
+        "silhouette_high_dim": 0.2581076920032501,
+        "silhouette_tsne": 0.2449618304226455,
+        "reference_5nn_query_accuracy": 0.8947368421052632,
+        "locked_query_errors": 4
+      }
+    },
+    "RAMEF": {
+      "registered_entries": {
+        "silhouette_high_dim": 0.28245455026626587,
+        "silhouette_tsne": 0.3692093537553381,
+        "reference_5nn_query_accuracy": 0.9041666666666667,
+        "locked_query_errors": 4
+      },
+      "unique_measurements": {
+        "silhouette_high_dim": 0.2838970124721527,
+        "silhouette_tsne": 0.37941693174393665,
+        "reference_5nn_query_accuracy": 0.9122807017543859,
+        "locked_query_errors": 2
+      }
+    }
+  }
+}

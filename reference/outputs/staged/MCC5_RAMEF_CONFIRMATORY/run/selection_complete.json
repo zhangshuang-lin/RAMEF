@@ -1,0 +1,45 @@
+{
+  "experiment": "MCC5_RAMEF_CONFIRMATORY",
+  "seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105
+  ],
+  "query_vibration_loaded": false,
+  "checkpoints": [
+    {
+      "seed": 20261101,
+      "best_source_validation_macro_f1": 0.7893980937459198,
+      "checkpoint": "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\checkpoints\\u2hz_seed20261101.pt",
+      "sha256": "efee3f4e7934b8ec4552a496aacb2b33a037b5f169dbb9d2accaff35d52dffb9"
+    },
+    {
+      "seed": 20261102,
+      "best_source_validation_macro_f1": 0.8857142857142857,
+      "checkpoint": "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\checkpoints\\u2hz_seed20261102.pt",
+      "sha256": "9af7418252369144c2f545758de145851c355e67fa3e6014b2a6e3ed2ea8bfd0"
+    },
+    {
+      "seed": 20261103,
+      "best_source_validation_macro_f1": 0.8121038381907947,
+      "checkpoint": "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\checkpoints\\u2hz_seed20261103.pt",
+      "sha256": "3d06236929da31f233a8b81805ddedbccca5a0d391441fdc72bc40b29506076c"
+    },
+    {
+      "seed": 20261104,
+      "best_source_validation_macro_f1": 0.8881118881118882,
+      "checkpoint": "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\checkpoints\\u2hz_seed20261104.pt",
+      "sha256": "debbc263a674b644d00848168693421774a54e5c57e90fc9477aa87356276852"
+    },
+    {
+      "seed": 20261105,
+      "best_source_validation_macro_f1": 0.9153439153439153,
+      "checkpoint": "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\checkpoints\\u2hz_seed20261105.pt",
+      "sha256": "32af4cd96dc0fd8496b83e3c767bd97cd274ac188adb472458e1393d9e124b05"
+    }
+  ],
+  "development_cache_sha256": "e860f692c534eef88b0ad414e34f0b2b5ffada133a332647e02ad5ac3b2b0d66",
+  "protocol_sha256": "be958f60f2f8202bf23a86f2be954ff81824a63e8db8244bea2942740909f8a1"
+}

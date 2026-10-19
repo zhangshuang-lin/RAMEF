@@ -1,0 +1,16 @@
+﻿seed,contrast,corrected_errors,introduced_errors
+20261101,physical_effect_u2,4,0
+20261101,physical_effect_wdcnn,6,0
+20261101,fused_u2_minus_fused_wdcnn,2,0
+20261102,physical_effect_u2,6,0
+20261102,physical_effect_wdcnn,6,0
+20261102,fused_u2_minus_fused_wdcnn,2,0
+20261103,physical_effect_u2,8,0
+20261103,physical_effect_wdcnn,3,0
+20261103,fused_u2_minus_fused_wdcnn,0,0
+20261104,physical_effect_u2,8,0
+20261104,physical_effect_wdcnn,4,1
+20261104,fused_u2_minus_fused_wdcnn,2,0
+20261105,physical_effect_u2,3,0
+20261105,physical_effect_wdcnn,7,2
+20261105,fused_u2_minus_fused_wdcnn,2,1

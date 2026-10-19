@@ -1,0 +1,6944 @@
+{
+  "unit": "one physical measurement ID, one vote",
+  "n": 171,
+  "class_counts": {
+    "N": 55,
+    "IR": 62,
+    "OR": 54
+  },
+  "models": [
+    {
+      "method": "Centre U2-Hz",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 88.88888888888889,
+      "macro_f1": 88.1647645284009,
+      "entry_accuracy": 89.16666666666667,
+      "entry_macro_f1": 88.77441664027029,
+      "recall_N": 98.18181818181819,
+      "recall_IR": 96.7741935483871,
+      "recall_OR": 70.37037037037037,
+      "errors": 19,
+      "worst_code_accuracy": 33.333333333333336,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KA15": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KA30": {
+          "correct": 4,
+          "total": 12,
+          "accuracy": 33.333333333333336
+        },
+        "KI04": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          54,
+          0,
+          1
+        ],
+        [
+          0,
+          60,
+          2
+        ],
+        [
+          12,
+          4,
+          38
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-DM4",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 92.39766081871345,
+      "macro_f1": 92.01953732927184,
+      "entry_accuracy": 92.5,
+      "entry_macro_f1": 92.29507724308846,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 100.0,
+      "recall_OR": 79.62962962962963,
+      "errors": 13,
+      "worst_code_accuracy": 63.63636363636363,
+      "code_accuracy": {
+        "K001": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 7,
+          "total": 11,
+          "accuracy": 63.63636363636363
+        },
+        "KA15": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          5,
+          6,
+          43
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-DM8",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 97.6608187134503,
+      "macro_f1": 97.55331088664421,
+      "entry_accuracy": 97.5,
+      "entry_macro_f1": 97.49960931395529,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 100.0,
+      "recall_OR": 96.29629629629629,
+      "errors": 4,
+      "worst_code_accuracy": 85.71428571428571,
+      "code_accuracy": {
+        "K001": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          2,
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "method": "Physical-only",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 76.60818713450293,
+      "macro_f1": 75.9740294006604,
+      "entry_accuracy": 76.66666666666667,
+      "entry_macro_f1": 76.30985833040627,
+      "recall_N": 98.18181818181819,
+      "recall_IR": 77.41935483870968,
+      "recall_OR": 53.7037037037037,
+      "errors": 40,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 5,
+          "total": 6,
+          "accuracy": 83.33333333333333
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 7,
+          "total": 11,
+          "accuracy": 63.63636363636363
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 3,
+          "total": 12,
+          "accuracy": 25.0
+        },
+        "KI04": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI14": {
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          54,
+          0,
+          1
+        ],
+        [
+          12,
+          48,
+          2
+        ],
+        [
+          22,
+          3,
+          29
+        ]
+      ]
+    },
+    {
+      "method": "Static30 exploratory",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 99.41520467836257,
+      "macro_f1": 99.38837920489297,
+      "entry_accuracy": 99.58333333333333,
+      "entry_macro_f1": 99.58331705665586,
+      "recall_N": 98.18181818181819,
+      "recall_IR": 100.0,
+      "recall_OR": 100.0,
+      "errors": 1,
+      "worst_code_accuracy": 88.88888888888889,
+      "code_accuracy": {
+        "K001": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          54,
+          0,
+          1
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          0,
+          0,
+          54
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF-F",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 98.83040935672514,
+      "macro_f1": 98.77583108715184,
+      "entry_accuracy": 98.33333333333333,
+      "entry_macro_f1": 98.33229101521785,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 96.29629629629629,
+      "errors": 2,
+      "worst_code_accuracy": 91.66666666666667,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          2,
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "method": "Random63",
+      "source": "outputs\\staged\\RACP_FAIR_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 87.13450292397661,
+      "macro_f1": 86.03174603174604,
+      "entry_accuracy": 86.66666666666667,
+      "entry_macro_f1": 86.19349575258435,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 100.0,
+      "recall_OR": 62.96296296296296,
+      "errors": 22,
+      "worst_code_accuracy": 25.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 13,
+          "total": 15,
+          "accuracy": 86.66666666666667
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 10,
+          "total": 11,
+          "accuracy": 90.9090909090909
+        },
+        "KA15": {
+          "correct": 10,
+          "total": 11,
+          "accuracy": 90.9090909090909
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 3,
+          "total": 12,
+          "accuracy": 25.0
+        },
+        "KA30": {
+          "correct": 3,
+          "total": 12,
+          "accuracy": 25.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          18,
+          2,
+          34
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-M8__H0_source_only",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 78.94736842105263,
+      "macro_f1": 77.550233003675,
+      "entry_accuracy": 77.91666666666667,
+      "entry_macro_f1": 77.38053340582175,
+      "recall_N": 100.0,
+      "recall_IR": 88.70967741935483,
+      "recall_OR": 46.2962962962963,
+      "errors": 36,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 54.54545454545455
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI04": {
+          "correct": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          7,
+          55,
+          0
+        ],
+        [
+          29,
+          0,
+          25
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-M8__H1_source_plus_support_w1",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 88.88888888888889,
+      "macro_f1": 87.97433440757193,
+      "entry_accuracy": 88.33333333333333,
+      "entry_macro_f1": 87.96475392220073,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 64.81481481481481,
+      "errors": 19,
+      "worst_code_accuracy": 16.666666666666668,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 2,
+          "total": 12,
+          "accuracy": 16.666666666666668
+        },
+        "KA30": {
+          "correct": 3,
+          "total": 12,
+          "accuracy": 25.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          19,
+          0,
+          35
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-M8__H2_registered_w10",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 97.6608187134503,
+      "macro_f1": 97.55331088664421,
+      "entry_accuracy": 97.5,
+      "entry_macro_f1": 97.49960931395529,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 100.0,
+      "recall_OR": 96.29629629629629,
+      "errors": 4,
+      "worst_code_accuracy": 85.71428571428571,
+      "code_accuracy": {
+        "K001": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          2,
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-M8__H3_support_only",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 95.90643274853801,
+      "macro_f1": 95.77825499085341,
+      "entry_accuracy": 96.25,
+      "entry_macro_f1": 96.21645129528234,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 100.0,
+      "recall_OR": 90.74074074074075,
+      "errors": 7,
+      "worst_code_accuracy": 72.72727272727273,
+      "code_accuracy": {
+        "K001": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 8,
+          "total": 11,
+          "accuracy": 72.72727272727273
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          2,
+          3,
+          49
+        ]
+      ]
+    },
+    {
+      "method": "U2-Hz-M8__H4_support_prototype",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 70.76023391812865,
+      "macro_f1": 67.95586013835864,
+      "entry_accuracy": 69.16666666666667,
+      "entry_macro_f1": 67.14382930852584,
+      "recall_N": 32.72727272727273,
+      "recall_IR": 91.93548387096774,
+      "recall_OR": 85.18518518518519,
+      "errors": 50,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 0,
+          "total": 9,
+          "accuracy": 0.0
+        },
+        "K002": {
+          "correct": 2,
+          "total": 8,
+          "accuracy": 25.0
+        },
+        "K003": {
+          "correct": 0,
+          "total": 15,
+          "accuracy": 0.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 0,
+          "total": 7,
+          "accuracy": 0.0
+        },
+        "KA04": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 27.272727272727273
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          18,
+          0,
+          37
+        ],
+        [
+          0,
+          57,
+          5
+        ],
+        [
+          0,
+          8,
+          46
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF-F__H0_source_only",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 75.43859649122807,
+      "macro_f1": 74.39753229226913,
+      "entry_accuracy": 75.0,
+      "entry_macro_f1": 74.6956746956747,
+      "recall_N": 100.0,
+      "recall_IR": 80.64516129032258,
+      "recall_OR": 44.44444444444444,
+      "errors": 42,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 5,
+          "total": 11,
+          "accuracy": 45.45454545454545
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI04": {
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "KI14": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          12,
+          50,
+          0
+        ],
+        [
+          30,
+          0,
+          24
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF-F__H1_source_plus_support_w1",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 96.49122807017544,
+      "macro_f1": 96.31507775524003,
+      "entry_accuracy": 96.25,
+      "entry_macro_f1": 96.2380971041185,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 88.88888888888889,
+      "errors": 6,
+      "worst_code_accuracy": 66.66666666666667,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          6,
+          0,
+          48
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF-F__H2_registered_w10",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 98.83040935672514,
+      "macro_f1": 98.77583108715184,
+      "entry_accuracy": 98.33333333333333,
+      "entry_macro_f1": 98.33229101521785,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 96.29629629629629,
+      "errors": 2,
+      "worst_code_accuracy": 91.66666666666667,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          2,
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF-F__H3_support_only",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 95.32163742690058,
+      "macro_f1": 95.31313131313131,
+      "entry_accuracy": 94.58333333333333,
+      "entry_macro_f1": 94.54733723932733,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 85.18518518518519,
+      "errors": 8,
+      "worst_code_accuracy": 27.272727272727273,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 27.272727272727273
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          0,
+          8,
+          46
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF-F__H4_support_prototype",
+      "source": "outputs\\staged\\SUPPORT_CALIBRATION_DIRECT_ABLATION\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 73.6842105263158,
+      "macro_f1": 70.89427329427329,
+      "entry_accuracy": 73.33333333333333,
+      "entry_macro_f1": 71.3877242021896,
+      "recall_N": 34.54545454545455,
+      "recall_IR": 93.54838709677419,
+      "recall_OR": 90.74074074074075,
+      "errors": 45,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 0,
+          "total": 9,
+          "accuracy": 0.0
+        },
+        "K002": {
+          "correct": 3,
+          "total": 8,
+          "accuracy": 37.5
+        },
+        "K003": {
+          "correct": 0,
+          "total": 15,
+          "accuracy": 0.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 0,
+          "total": 7,
+          "accuracy": 0.0
+        },
+        "KA04": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 54.54545454545455
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 6,
+          "total": 10,
+          "accuracy": 60.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          19,
+          0,
+          36
+        ],
+        [
+          0,
+          58,
+          4
+        ],
+        [
+          0,
+          5,
+          49
+        ]
+      ]
+    },
+    {
+      "method": "locked resnet1d",
+      "source": "outputs\\staged\\PU_EIGHTBLOCK_FAIR_BASELINES\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 50.292397660818715,
+      "macro_f1": 45.65407453191675,
+      "entry_accuracy": 50.0,
+      "entry_macro_f1": 45.09812268681301,
+      "recall_N": 92.72727272727273,
+      "recall_IR": 12.903225806451612,
+      "recall_OR": 50.0,
+      "errors": 85,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 4,
+          "total": 8,
+          "accuracy": 50.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI18": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI21": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        }
+      },
+      "confusion_matrix": [
+        [
+          51,
+          0,
+          4
+        ],
+        [
+          20,
+          8,
+          34
+        ],
+        [
+          16,
+          11,
+          27
+        ]
+      ]
+    },
+    {
+      "method": "locked stft_cnn",
+      "source": "outputs\\staged\\PU_EIGHTBLOCK_FAIR_BASELINES\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 61.98830409356725,
+      "macro_f1": 61.124757267483986,
+      "entry_accuracy": 60.416666666666664,
+      "entry_macro_f1": 59.17354591387741,
+      "recall_N": 90.9090909090909,
+      "recall_IR": 43.54838709677419,
+      "recall_OR": 53.7037037037037,
+      "errors": 65,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 3,
+          "total": 8,
+          "accuracy": 37.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 4,
+          "total": 8,
+          "accuracy": 50.0
+        },
+        "KA22": {
+          "correct": 5,
+          "total": 12,
+          "accuracy": 41.666666666666664
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 7,
+          "total": 9,
+          "accuracy": 77.77777777777777
+        }
+      },
+      "confusion_matrix": [
+        [
+          50,
+          1,
+          4
+        ],
+        [
+          10,
+          27,
+          25
+        ],
+        [
+          9,
+          16,
+          29
+        ]
+      ]
+    },
+    {
+      "method": "locked wdcnn",
+      "source": "outputs\\staged\\PU_EIGHTBLOCK_FAIR_BASELINES\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 70.17543859649123,
+      "macro_f1": 68.14673806502202,
+      "entry_accuracy": 67.91666666666667,
+      "entry_macro_f1": 65.29091521879687,
+      "recall_N": 100.0,
+      "recall_IR": 67.74193548387096,
+      "recall_OR": 42.592592592592595,
+      "errors": 51,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 2,
+          "total": 8,
+          "accuracy": 25.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI04": {
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 2,
+          "total": 11,
+          "accuracy": 18.181818181818183
+        },
+        "KI17": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          8,
+          42,
+          12
+        ],
+        [
+          14,
+          17,
+          23
+        ]
+      ]
+    },
+    {
+      "method": "locked wdcnn_dann",
+      "source": "outputs\\staged\\PU_EIGHTBLOCK_FAIR_BASELINES\\predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 69.5906432748538,
+      "macro_f1": 68.23775922613132,
+      "entry_accuracy": 67.91666666666667,
+      "entry_macro_f1": 66.14091948894925,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 64.51612903225806,
+      "recall_OR": 48.148148148148145,
+      "errors": 52,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 7,
+          "total": 9,
+          "accuracy": 77.77777777777777
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 4,
+          "total": 8,
+          "accuracy": 50.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 2,
+          "total": 11,
+          "accuracy": 18.181818181818183
+        },
+        "KI17": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI18": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          8,
+          40,
+          14
+        ],
+        [
+          13,
+          15,
+          26
+        ]
+      ]
+    },
+    {
+      "method": "resnet1d seed 20260901",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\resnet1d_seed20260901.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 50.292397660818715,
+      "macro_f1": 49.73128063195526,
+      "entry_accuracy": 50.0,
+      "entry_macro_f1": 49.22025758016203,
+      "recall_N": 72.72727272727273,
+      "recall_IR": 32.25806451612903,
+      "recall_OR": 48.148148148148145,
+      "errors": 85,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 1,
+          "total": 9,
+          "accuracy": 11.11111111111111
+        },
+        "K002": {
+          "correct": 5,
+          "total": 8,
+          "accuracy": 62.5
+        },
+        "K003": {
+          "correct": 14,
+          "total": 15,
+          "accuracy": 93.33333333333333
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 4,
+          "total": 7,
+          "accuracy": 57.142857142857146
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 3,
+          "total": 12,
+          "accuracy": 25.0
+        },
+        "KA30": {
+          "correct": 4,
+          "total": 12,
+          "accuracy": 33.333333333333336
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI16": {
+          "correct": 2,
+          "total": 11,
+          "accuracy": 18.181818181818183
+        },
+        "KI17": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        }
+      },
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          15
+        ],
+        [
+          12,
+          20,
+          30
+        ],
+        [
+          16,
+          12,
+          26
+        ]
+      ]
+    },
+    {
+      "method": "resnet1d seed 20260902",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\resnet1d_seed20260902.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 70.76023391812865,
+      "macro_f1": 69.48580601831375,
+      "entry_accuracy": 69.16666666666667,
+      "entry_macro_f1": 67.4492222130996,
+      "recall_N": 100.0,
+      "recall_IR": 64.51612903225806,
+      "recall_OR": 48.148148148148145,
+      "errors": 50,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 6,
+          "total": 8,
+          "accuracy": 75.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 2,
+          "total": 11,
+          "accuracy": 18.181818181818183
+        },
+        "KI17": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          22
+        ],
+        [
+          16,
+          12,
+          26
+        ]
+      ]
+    },
+    {
+      "method": "resnet1d seed 20260903",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\resnet1d_seed20260903.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 52.63157894736842,
+      "macro_f1": 51.172018026120334,
+      "entry_accuracy": 51.24999999999999,
+      "entry_macro_f1": 49.44156767184486,
+      "recall_N": 83.63636363636364,
+      "recall_IR": 38.70967741935484,
+      "recall_OR": 37.03703703703704,
+      "errors": 81,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 1,
+          "total": 9,
+          "accuracy": 11.11111111111111
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 14,
+          "total": 15,
+          "accuracy": 93.33333333333333
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 0,
+          "total": 8,
+          "accuracy": 0.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 6,
+          "total": 10,
+          "accuracy": 60.0
+        },
+        "KI16": {
+          "correct": 2,
+          "total": 11,
+          "accuracy": 18.181818181818183
+        },
+        "KI17": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 5,
+          "total": 9,
+          "accuracy": 55.55555555555556
+        }
+      },
+      "confusion_matrix": [
+        [
+          46,
+          0,
+          9
+        ],
+        [
+          14,
+          24,
+          24
+        ],
+        [
+          22,
+          12,
+          20
+        ]
+      ]
+    },
+    {
+      "method": "resnet1d seed 20260904",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\resnet1d_seed20260904.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 57.30994152046784,
+      "macro_f1": 51.85633575464084,
+      "entry_accuracy": 55.833333333333336,
+      "entry_macro_f1": 49.92859957747802,
+      "recall_N": 100.0,
+      "recall_IR": 59.67741935483871,
+      "recall_OR": 11.11111111111111,
+      "errors": 73,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 54.54545454545455
+        },
+        "KA16": {
+          "correct": 0,
+          "total": 8,
+          "accuracy": 0.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI04": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KI17": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 2,
+          "total": 9,
+          "accuracy": 22.22222222222222
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          1,
+          37,
+          24
+        ],
+        [
+          29,
+          19,
+          6
+        ]
+      ]
+    },
+    {
+      "method": "resnet1d seed 20260905",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\resnet1d_seed20260905.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 45.6140350877193,
+      "macro_f1": 46.37221645321334,
+      "entry_accuracy": 44.583333333333336,
+      "entry_macro_f1": 45.4670614907168,
+      "recall_N": 47.27272727272727,
+      "recall_IR": 41.935483870967744,
+      "recall_OR": 48.148148148148145,
+      "errors": 93,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 0,
+          "total": 9,
+          "accuracy": 0.0
+        },
+        "K002": {
+          "correct": 0,
+          "total": 8,
+          "accuracy": 0.0
+        },
+        "K003": {
+          "correct": 5,
+          "total": 15,
+          "accuracy": 33.333333333333336
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 5,
+          "total": 7,
+          "accuracy": 71.42857142857143
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI18": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI21": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        }
+      },
+      "confusion_matrix": [
+        [
+          26,
+          0,
+          29
+        ],
+        [
+          10,
+          26,
+          26
+        ],
+        [
+          16,
+          12,
+          26
+        ]
+      ]
+    },
+    {
+      "method": "stft_cnn seed 20260901",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\stft_cnn_seed20260901.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 68.42105263157895,
+      "macro_f1": 67.1464279954846,
+      "entry_accuracy": 68.33333333333333,
+      "entry_macro_f1": 66.66748942254962,
+      "recall_N": 100.0,
+      "recall_IR": 50.0,
+      "recall_OR": 57.407407407407405,
+      "errors": 54,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KA30": {
+          "correct": 5,
+          "total": 12,
+          "accuracy": 41.666666666666664
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 3,
+          "total": 12,
+          "accuracy": 25.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 8,
+          "total": 9,
+          "accuracy": 88.88888888888889
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          10,
+          31,
+          21
+        ],
+        [
+          12,
+          11,
+          31
+        ]
+      ]
+    },
+    {
+      "method": "stft_cnn seed 20260902",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\stft_cnn_seed20260902.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 62.57309941520468,
+      "macro_f1": 61.147168227773335,
+      "entry_accuracy": 61.25000000000001,
+      "entry_macro_f1": 59.32760489975241,
+      "recall_N": 96.36363636363636,
+      "recall_IR": 40.32258064516129,
+      "recall_OR": 53.7037037037037,
+      "errors": 64,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 6,
+          "total": 8,
+          "accuracy": 75.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 2,
+          "total": 12,
+          "accuracy": 16.666666666666668
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KI18": {
+          "correct": 7,
+          "total": 10,
+          "accuracy": 70.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          2
+        ],
+        [
+          12,
+          25,
+          25
+        ],
+        [
+          9,
+          16,
+          29
+        ]
+      ]
+    },
+    {
+      "method": "stft_cnn seed 20260903",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\stft_cnn_seed20260903.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 65.49707602339181,
+      "macro_f1": 64.60260404185638,
+      "entry_accuracy": 62.5,
+      "entry_macro_f1": 61.32903539609566,
+      "recall_N": 90.9090909090909,
+      "recall_IR": 54.83870967741935,
+      "recall_OR": 51.851851851851855,
+      "errors": 59,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 3,
+          "total": 8,
+          "accuracy": 37.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 5,
+          "total": 12,
+          "accuracy": 41.666666666666664
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          50,
+          0,
+          5
+        ],
+        [
+          10,
+          34,
+          18
+        ],
+        [
+          15,
+          11,
+          28
+        ]
+      ]
+    },
+    {
+      "method": "stft_cnn seed 20260904",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\stft_cnn_seed20260904.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 71.34502923976608,
+      "macro_f1": 70.39419934640523,
+      "entry_accuracy": 70.0,
+      "entry_macro_f1": 68.57020398602548,
+      "recall_N": 100.0,
+      "recall_IR": 56.45161290322581,
+      "recall_OR": 59.25925925925926,
+      "errors": 49,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 5,
+          "total": 12,
+          "accuracy": 41.666666666666664
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          11,
+          35,
+          16
+        ],
+        [
+          7,
+          15,
+          32
+        ]
+      ]
+    },
+    {
+      "method": "stft_cnn seed 20260905",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\stft_cnn_seed20260905.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 64.32748538011695,
+      "macro_f1": 63.44201763732113,
+      "entry_accuracy": 62.916666666666664,
+      "entry_macro_f1": 61.66157312347435,
+      "recall_N": 90.9090909090909,
+      "recall_IR": 45.16129032258065,
+      "recall_OR": 59.25925925925926,
+      "errors": 61,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 3,
+          "total": 8,
+          "accuracy": 37.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 4,
+          "total": 12,
+          "accuracy": 33.333333333333336
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          50,
+          0,
+          5
+        ],
+        [
+          11,
+          28,
+          23
+        ],
+        [
+          11,
+          11,
+          32
+        ]
+      ]
+    },
+    {
+      "method": "u2_hz seed 20260901",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\u2_hz_seed20260901.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 95.32163742690058,
+      "macro_f1": 95.07344632768361,
+      "entry_accuracy": 94.16666666666667,
+      "entry_macro_f1": 94.12166063087177,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 85.18518518518519,
+      "errors": 8,
+      "worst_code_accuracy": 33.333333333333336,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 4,
+          "total": 12,
+          "accuracy": 33.333333333333336
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          8,
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "method": "u2_hz seed 20260902",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\u2_hz_seed20260902.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 84.7953216374269,
+      "macro_f1": 84.77704837260528,
+      "entry_accuracy": 85.41666666666666,
+      "entry_macro_f1": 85.24189068779086,
+      "recall_N": 100.0,
+      "recall_IR": 80.64516129032258,
+      "recall_OR": 74.07407407407408,
+      "errors": 26,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 27.272727272727273
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          12
+        ],
+        [
+          2,
+          12,
+          40
+        ]
+      ]
+    },
+    {
+      "method": "u2_hz seed 20260903",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\u2_hz_seed20260903.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 91.2280701754386,
+      "macro_f1": 90.77587750695827,
+      "entry_accuracy": 90.83333333333333,
+      "entry_macro_f1": 90.71003611919997,
+      "recall_N": 100.0,
+      "recall_IR": 96.7741935483871,
+      "recall_OR": 75.92592592592592,
+      "errors": 15,
+      "worst_code_accuracy": 8.333333333333334,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KA30": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          60,
+          2
+        ],
+        [
+          13,
+          0,
+          41
+        ]
+      ]
+    },
+    {
+      "method": "u2_hz seed 20260904",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\u2_hz_seed20260904.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 88.30409356725146,
+      "macro_f1": 87.79090342644898,
+      "entry_accuracy": 87.91666666666667,
+      "entry_macro_f1": 87.43588920733428,
+      "recall_N": 100.0,
+      "recall_IR": 91.93548387096774,
+      "recall_OR": 72.22222222222223,
+      "errors": 20,
+      "worst_code_accuracy": 16.666666666666668,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 2,
+          "total": 12,
+          "accuracy": 16.666666666666668
+        },
+        "KA30": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          57,
+          5
+        ],
+        [
+          7,
+          8,
+          39
+        ]
+      ]
+    },
+    {
+      "method": "u2_hz seed 20260905",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\u2_hz_seed20260905.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 84.21052631578948,
+      "macro_f1": 82.95523259305189,
+      "entry_accuracy": 83.75,
+      "entry_macro_f1": 82.6375039915169,
+      "recall_N": 100.0,
+      "recall_IR": 91.93548387096774,
+      "recall_OR": 59.25925925925926,
+      "errors": 27,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 1,
+          "total": 11,
+          "accuracy": 9.090909090909092
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          57,
+          5
+        ],
+        [
+          12,
+          10,
+          32
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn_dann seed 20260901",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_dann_seed20260901.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 87.71929824561404,
+      "macro_f1": 87.42540110961164,
+      "entry_accuracy": 86.66666666666667,
+      "entry_macro_f1": 86.30123764765277,
+      "recall_N": 100.0,
+      "recall_IR": 90.3225806451613,
+      "recall_OR": 72.22222222222223,
+      "errors": 21,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "KA22": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          4,
+          56,
+          2
+        ],
+        [
+          3,
+          12,
+          39
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn_dann seed 20260902",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_dann_seed20260902.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 62.57309941520468,
+      "macro_f1": 59.616402116402114,
+      "entry_accuracy": 60.416666666666664,
+      "entry_macro_f1": 56.597625707498636,
+      "recall_N": 100.0,
+      "recall_IR": 56.45161290322581,
+      "recall_OR": 31.48148148148148,
+      "errors": 64,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 4,
+          "total": 8,
+          "accuracy": 50.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 2,
+          "total": 12,
+          "accuracy": 16.666666666666668
+        },
+        "KI04": {
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "KI14": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KI18": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          8,
+          35,
+          19
+        ],
+        [
+          22,
+          15,
+          17
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn_dann seed 20260903",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_dann_seed20260903.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 66.66666666666667,
+      "macro_f1": 65.67501434528835,
+      "entry_accuracy": 64.16666666666667,
+      "entry_macro_f1": 63.09454191033138,
+      "recall_N": 83.63636363636364,
+      "recall_IR": 74.19354838709677,
+      "recall_OR": 40.74074074074074,
+      "errors": 57,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 6,
+          "total": 9,
+          "accuracy": 66.66666666666667
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 12,
+          "total": 15,
+          "accuracy": 80.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 4,
+          "total": 7,
+          "accuracy": 57.142857142857146
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 27.272727272727273
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 2,
+          "total": 12,
+          "accuracy": 16.666666666666668
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "KI14": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI18": {
+          "correct": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          46,
+          0,
+          9
+        ],
+        [
+          0,
+          46,
+          16
+        ],
+        [
+          11,
+          21,
+          22
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn_dann seed 20260904",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_dann_seed20260904.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 77.19298245614036,
+      "macro_f1": 74.28338856910285,
+      "entry_accuracy": 75.41666666666667,
+      "entry_macro_f1": 72.48419093654738,
+      "recall_N": 100.0,
+      "recall_IR": 91.93548387096774,
+      "recall_OR": 37.03703703703704,
+      "errors": 39,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 27.272727272727273
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          1,
+          57,
+          4
+        ],
+        [
+          6,
+          28,
+          20
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn_dann seed 20260905",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_dann_seed20260905.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 73.6842105263158,
+      "macro_f1": 71.49874349776998,
+      "entry_accuracy": 71.66666666666667,
+      "entry_macro_f1": 69.35306232720025,
+      "recall_N": 100.0,
+      "recall_IR": 77.41935483870968,
+      "recall_OR": 42.592592592592595,
+      "errors": 45,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 5,
+          "total": 12,
+          "accuracy": 41.666666666666664
+        },
+        "KI04": {
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 54.54545454545455
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          9,
+          48,
+          5
+        ],
+        [
+          19,
+          12,
+          23
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn seed 20260901",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_seed20260901.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 70.17543859649123,
+      "macro_f1": 68.47082144815529,
+      "entry_accuracy": 68.33333333333333,
+      "entry_macro_f1": 66.25680693069307,
+      "recall_N": 100.0,
+      "recall_IR": 64.51612903225806,
+      "recall_OR": 46.2962962962963,
+      "errors": 51,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KI04": {
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 3,
+          "total": 11,
+          "accuracy": 27.272727272727273
+        },
+        "KI17": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI18": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          10,
+          40,
+          12
+        ],
+        [
+          17,
+          12,
+          25
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn seed 20260902",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_seed20260902.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 58.47953216374269,
+      "macro_f1": 55.51576487064479,
+      "entry_accuracy": 58.75,
+      "entry_macro_f1": 55.327079666691944,
+      "recall_N": 100.0,
+      "recall_IR": 45.16129032258065,
+      "recall_OR": 31.48148148148148,
+      "errors": 71,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 6,
+          "total": 8,
+          "accuracy": 75.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KI04": {
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "KI14": {
+          "correct": 6,
+          "total": 10,
+          "accuracy": 60.0
+        },
+        "KI16": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KI17": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KI18": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          10,
+          28,
+          24
+        ],
+        [
+          24,
+          13,
+          17
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn seed 20260903",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_seed20260903.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 67.83625730994152,
+      "macro_f1": 64.08494126246133,
+      "entry_accuracy": 65.83333333333333,
+      "entry_macro_f1": 61.53489322260849,
+      "recall_N": 100.0,
+      "recall_IR": 72.58064516129032,
+      "recall_OR": 29.62962962962963,
+      "errors": 55,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 10,
+          "total": 11,
+          "accuracy": 90.9090909090909
+        },
+        "KA16": {
+          "correct": 0,
+          "total": 8,
+          "accuracy": 0.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 6,
+          "total": 12,
+          "accuracy": 50.0
+        },
+        "KI04": {
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "KI14": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI16": {
+          "correct": 10,
+          "total": 11,
+          "accuracy": 90.9090909090909
+        },
+        "KI17": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI18": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          8,
+          45,
+          9
+        ],
+        [
+          18,
+          20,
+          16
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn seed 20260904",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_seed20260904.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 68.42105263157895,
+      "macro_f1": 64.96478322880644,
+      "entry_accuracy": 67.08333333333333,
+      "entry_macro_f1": 63.728571719765995,
+      "recall_N": 100.0,
+      "recall_IR": 72.58064516129032,
+      "recall_OR": 31.48148148148148,
+      "errors": 54,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KA16": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KI04": {
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 6,
+          "total": 11,
+          "accuracy": 54.54545454545455
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 6,
+          "total": 10,
+          "accuracy": 60.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          8,
+          45,
+          9
+        ],
+        [
+          23,
+          14,
+          17
+        ]
+      ]
+    },
+    {
+      "method": "wdcnn seed 20260905",
+      "source": "outputs\\staged\\PU_MULTISEED_STABILITY\\predictions\\wdcnn_seed20260905.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 75.43859649122807,
+      "macro_f1": 73.9481560564235,
+      "entry_accuracy": 72.5,
+      "entry_macro_f1": 70.6653744865799,
+      "recall_N": 100.0,
+      "recall_IR": 75.80645161290323,
+      "recall_OR": 50.0,
+      "errors": 42,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 0,
+          "total": 11,
+          "accuracy": 0.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KI04": {
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 5,
+          "total": 11,
+          "accuracy": 45.45454545454545
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          9,
+          47,
+          6
+        ],
+        [
+          15,
+          12,
+          27
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF_F seed 20260911",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 92.98245614035088,
+      "macro_f1": 92.53636363636363,
+      "entry_accuracy": 91.25,
+      "entry_macro_f1": 91.01433109667863,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 77.77777777777777,
+      "errors": 12,
+      "worst_code_accuracy": 8.333333333333334,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 10,
+          "total": 11,
+          "accuracy": 90.9090909090909
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          11,
+          1,
+          42
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF_F seed 20260912",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 97.07602339181287,
+      "macro_f1": 96.93260166033488,
+      "entry_accuracy": 96.66666666666667,
+      "entry_macro_f1": 96.65831244778613,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 90.74074074074075,
+      "errors": 5,
+      "worst_code_accuracy": 58.333333333333336,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          5,
+          0,
+          49
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF_F seed 20260913",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 92.98245614035088,
+      "macro_f1": 92.82107708295128,
+      "entry_accuracy": 92.5,
+      "entry_macro_f1": 92.5236175668079,
+      "recall_N": 87.27272727272727,
+      "recall_IR": 96.7741935483871,
+      "recall_OR": 94.44444444444444,
+      "errors": 12,
+      "worst_code_accuracy": 12.5,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 1,
+          "total": 8,
+          "accuracy": 12.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          48,
+          0,
+          7
+        ],
+        [
+          0,
+          60,
+          2
+        ],
+        [
+          2,
+          1,
+          51
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF_F seed 20260914",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 92.39766081871345,
+      "macro_f1": 92.00402872129628,
+      "entry_accuracy": 90.41666666666667,
+      "entry_macro_f1": 90.16144806103536,
+      "recall_N": 98.18181818181819,
+      "recall_IR": 98.38709677419355,
+      "recall_OR": 79.62962962962963,
+      "errors": 13,
+      "worst_code_accuracy": 41.666666666666664,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 7,
+          "total": 8,
+          "accuracy": 87.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 5,
+          "total": 12,
+          "accuracy": 41.666666666666664
+        },
+        "KA30": {
+          "correct": 8,
+          "total": 12,
+          "accuracy": 66.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          54,
+          0,
+          1
+        ],
+        [
+          0,
+          61,
+          1
+        ],
+        [
+          10,
+          1,
+          43
+        ]
+      ]
+    },
+    {
+      "method": "RAMEF_F seed 20260915",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 94.73684210526316,
+      "macro_f1": 94.48798988621998,
+      "entry_accuracy": 93.33333333333333,
+      "entry_macro_f1": 93.31662489557226,
+      "recall_N": 94.54545454545455,
+      "recall_IR": 100.0,
+      "recall_OR": 88.88888888888889,
+      "errors": 9,
+      "worst_code_accuracy": 50.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 5,
+          "total": 8,
+          "accuracy": 62.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 6,
+          "total": 12,
+          "accuracy": 50.0
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          52,
+          0,
+          3
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          6,
+          0,
+          48
+        ]
+      ]
+    },
+    {
+      "method": "U2_Hz_DM8 seed 20260911",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 92.39766081871345,
+      "macro_f1": 91.8791929318245,
+      "entry_accuracy": 90.83333333333333,
+      "entry_macro_f1": 90.53431835909397,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 75.92592592592592,
+      "errors": 13,
+      "worst_code_accuracy": 8.333333333333334,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 9,
+          "total": 11,
+          "accuracy": 81.81818181818181
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 1,
+          "total": 12,
+          "accuracy": 8.333333333333334
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          11,
+          2,
+          41
+        ]
+      ]
+    },
+    {
+      "method": "U2_Hz_DM8 seed 20260912",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 98.24561403508773,
+      "macro_f1": 98.16451965984676,
+      "entry_accuracy": 98.33333333333333,
+      "entry_macro_f1": 98.3330728759702,
+      "recall_N": 98.18181818181819,
+      "recall_IR": 100.0,
+      "recall_OR": 96.29629629629629,
+      "errors": 3,
+      "worst_code_accuracy": 85.71428571428571,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KA30": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 91.66666666666667
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          54,
+          0,
+          1
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          2,
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "method": "U2_Hz_DM8 seed 20260913",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 90.64327485380117,
+      "macro_f1": 90.50360599596593,
+      "entry_accuracy": 90.41666666666667,
+      "entry_macro_f1": 90.46171561516023,
+      "recall_N": 85.45454545454545,
+      "recall_IR": 95.16129032258064,
+      "recall_OR": 90.74074074074075,
+      "errors": 16,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 0,
+          "total": 8,
+          "accuracy": 0.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 9,
+          "total": 12,
+          "accuracy": 75.0
+        },
+        "KA30": {
+          "correct": 10,
+          "total": 12,
+          "accuracy": 83.33333333333333
+        },
+        "KI04": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 90.0
+        },
+        "KI14": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          47,
+          0,
+          8
+        ],
+        [
+          0,
+          59,
+          3
+        ],
+        [
+          2,
+          3,
+          49
+        ]
+      ]
+    },
+    {
+      "method": "U2_Hz_DM8 seed 20260914",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 90.05847953216374,
+      "macro_f1": 89.27342287342287,
+      "entry_accuracy": 88.33333333333333,
+      "entry_macro_f1": 87.81129149227309,
+      "recall_N": 100.0,
+      "recall_IR": 100.0,
+      "recall_OR": 68.51851851851852,
+      "errors": 17,
+      "worst_code_accuracy": 0.0,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 7,
+          "total": 7,
+          "accuracy": 100.0
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 0,
+          "total": 12,
+          "accuracy": 0.0
+        },
+        "KA30": {
+          "correct": 7,
+          "total": 12,
+          "accuracy": 58.333333333333336
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          16,
+          1,
+          37
+        ]
+      ]
+    },
+    {
+      "method": "U2_Hz_DM8 seed 20260915",
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "query_entries": 240,
+      "unique_measurements": 171,
+      "accuracy": 90.64327485380117,
+      "macro_f1": 90.19343229869546,
+      "entry_accuracy": 90.0,
+      "entry_macro_f1": 89.97493734335839,
+      "recall_N": 89.0909090909091,
+      "recall_IR": 100.0,
+      "recall_OR": 81.48148148148148,
+      "errors": 16,
+      "worst_code_accuracy": 16.666666666666668,
+      "code_accuracy": {
+        "K001": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        },
+        "K002": {
+          "correct": 3,
+          "total": 8,
+          "accuracy": 37.5
+        },
+        "K003": {
+          "correct": 15,
+          "total": 15,
+          "accuracy": 100.0
+        },
+        "K004": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "K005": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 100.0
+        },
+        "K006": {
+          "correct": 6,
+          "total": 7,
+          "accuracy": 85.71428571428571
+        },
+        "KA04": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA15": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KA16": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 100.0
+        },
+        "KA22": {
+          "correct": 2,
+          "total": 12,
+          "accuracy": 16.666666666666668
+        },
+        "KA30": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI04": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI14": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI16": {
+          "correct": 11,
+          "total": 11,
+          "accuracy": 100.0
+        },
+        "KI17": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 100.0
+        },
+        "KI18": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 100.0
+        },
+        "KI21": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 100.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          49,
+          0,
+          6
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          10,
+          0,
+          44
+        ]
+      ]
+    }
+  ],
+  "paired_locked": [
+    {
+      "from": "Centre U2-Hz",
+      "to": "U2-Hz-DM8",
+      "corrected": 16,
+      "introduced": 1
+    },
+    {
+      "from": "U2-Hz-DM8",
+      "to": "RAMEF-F",
+      "corrected": 2,
+      "introduced": 0
+    },
+    {
+      "from": "Centre U2-Hz",
+      "to": "RAMEF-F",
+      "corrected": 17,
+      "introduced": 0
+    }
+  ],
+  "paired_uncertainty": {
+    "comparison": "Centre U2-Hz to RAMEF-F",
+    "unique_measurement_exact_p": 1.52587890625e-05,
+    "measurement_stratified_bootstrap": {
+      "accuracy": {
+        "mean": 9.959766081871344,
+        "ci_low": 5.847953216374268,
+        "ci_high": 14.619883040935665
+      },
+      "macro_f1": {
+        "mean": 10.651773001381072,
+        "ci_low": 6.178129073168415,
+        "ci_high": 15.577842461898413
+      },
+      "recall_OR": {
+        "mean": 25.97111111111111,
+        "ci_low": 14.814814814814813,
+        "ci_high": 37.03703703703704
+      }
+    },
+    "bearing_code_cluster_bootstrap": {
+      "accuracy": {
+        "mean": 9.95907998863629,
+        "ci_low": 4.6242774566473965,
+        "ci_high": 16.470755347593578
+      },
+      "macro_f1": {
+        "mean": 10.634878180072796,
+        "ci_low": 4.908917106036359,
+        "ci_high": 17.775309903206395
+      },
+      "recall_N": {
+        "mean": 1.9197952308516069,
+        "ci_low": 0.0,
+        "ci_high": 6.382978723404253
+      },
+      "recall_IR": {
+        "mean": 3.2355111365504636,
+        "ci_low": 0.0,
+        "ci_high": 6.779661016949157
+      },
+      "recall_OR": {
+        "mean": 25.678853008252453,
+        "ci_low": 10.638297872340418,
+        "ci_high": 43.103448275862064
+      }
+    },
+    "code_sign_flip_all": {
+      "nonzero_clusters": 7,
+      "observed_net_corrections": 17,
+      "two_sided_p": 0.015625
+    },
+    "code_sign_flip_OR": {
+      "nonzero_clusters": 4,
+      "observed_net_corrections": 14,
+      "two_sided_p": 0.125
+    },
+    "leave_one_code_out_accuracy_delta_min_pp": 6.2893081761006275,
+    "leave_one_code_out_accuracy_delta_max_pp": 10.897435897435903,
+    "leave_one_code_out_OR_delta_min_pp": 16.666666666666664,
+    "leave_one_code_out_OR_delta_max_pp": 30.434782608695656,
+    "code_contributions": [
+      {
+        "bearing_code": "K001",
+        "class": 0,
+        "count": 9,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "K002",
+        "class": 0,
+        "count": 8,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "K003",
+        "class": 0,
+        "count": 15,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "K004",
+        "class": 0,
+        "count": 10,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "K005",
+        "class": 0,
+        "count": 6,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "K006",
+        "class": 0,
+        "count": 7,
+        "fixes": 1,
+        "new_errors": 0,
+        "net_corrections": 1
+      },
+      {
+        "bearing_code": "KA04",
+        "class": 2,
+        "count": 11,
+        "fixes": 2,
+        "new_errors": 0,
+        "net_corrections": 2
+      },
+      {
+        "bearing_code": "KA15",
+        "class": 2,
+        "count": 11,
+        "fixes": 2,
+        "new_errors": 0,
+        "net_corrections": 2
+      },
+      {
+        "bearing_code": "KA16",
+        "class": 2,
+        "count": 8,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "KA22",
+        "class": 2,
+        "count": 12,
+        "fixes": 3,
+        "new_errors": 0,
+        "net_corrections": 3
+      },
+      {
+        "bearing_code": "KA30",
+        "class": 2,
+        "count": 12,
+        "fixes": 7,
+        "new_errors": 0,
+        "net_corrections": 7
+      },
+      {
+        "bearing_code": "KI04",
+        "class": 1,
+        "count": 10,
+        "fixes": 1,
+        "new_errors": 0,
+        "net_corrections": 1
+      },
+      {
+        "bearing_code": "KI14",
+        "class": 1,
+        "count": 10,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "KI16",
+        "class": 1,
+        "count": 11,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "KI17",
+        "class": 1,
+        "count": 12,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      },
+      {
+        "bearing_code": "KI18",
+        "class": 1,
+        "count": 10,
+        "fixes": 1,
+        "new_errors": 0,
+        "net_corrections": 1
+      },
+      {
+        "bearing_code": "KI21",
+        "class": 1,
+        "count": 9,
+        "fixes": 0,
+        "new_errors": 0,
+        "net_corrections": 0
+      }
+    ]
+  },
+  "cohort_summary": {
+    "earlier_U2_Hz_five_seeds": {
+      "accuracy": {
+        "mean": 88.7719298245614,
+        "sample_sd": 4.630604185924947
+      },
+      "macro_f1": {
+        "mean": 88.2745016453496,
+        "sample_sd": 4.828125927250719
+      },
+      "recall_N": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "recall_IR": {
+        "mean": 92.25806451612904,
+        "sample_sd": 7.3382665587595675
+      },
+      "recall_OR": {
+        "mean": 73.33333333333334,
+        "sample_sd": 9.314649140710587
+      }
+    },
+    "new_RAMEF_F_five_seeds": {
+      "accuracy": {
+        "mean": 94.03508771929825,
+        "sample_sd": 1.9129154659410696
+      },
+      "macro_f1": {
+        "mean": 93.7564121974332,
+        "sample_sd": 2.0035969863078025
+      },
+      "recall_N": {
+        "mean": 96.0,
+        "sample_sd": 5.362865892273685
+      },
+      "recall_IR": {
+        "mean": 99.03225806451613,
+        "sample_sd": 1.4426245016127648
+      },
+      "recall_OR": {
+        "mean": 86.29629629629629,
+        "sample_sd": 7.243558228002945
+      }
+    }
+  },
+  "unscored_legacy_conditions": [
+    "K1 and DM2 observation-budget settings: no archived 240-row prediction ledger located"
+  ]
+}

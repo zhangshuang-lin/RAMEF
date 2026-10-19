@@ -1,0 +1,7 @@
+{
+  "archived_fair_ablation_ledger_sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+  "independent_head_ledger_sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+  "independent_locked_run_ledger_sha256": "d0216382dc28a72fd10b30e6f497be93aa79b285a5baad7a61901425903c5e64",
+  "packaged_input_sha256": "99ffd538cfca7129d957478d8025c59def1a0182ceee1f9eacd54c42aead9792",
+  "source_role": "frozen PU target-query predictions, not raw vibration or new model output"
+}

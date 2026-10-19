@@ -1,0 +1,35 @@
+{
+  "experiment": "MCC5_T1_QUERY_FREE_SUPPORT_STABILITY",
+  "status": "COMPLETE_QUERY_FREE",
+  "query_cache_opened": false,
+  "seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105
+  ],
+  "views": [
+    "U2-Hz-DM8",
+    "RAMEF"
+  ],
+  "support_weights": [
+    1.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "source_runs": 42,
+  "source_validation_runs": 42,
+  "support_runs": 15,
+  "leave_two_out_folds_per_seed": 105,
+  "protocol_sha256": "7bab1bda34227c5e03f9177af01c8e2edd6171e6f445fe44af4f58038a6124bc",
+  "development_cache_sha256": "e860f692c534eef88b0ad414e34f0b2b5ffada133a332647e02ad5ac3b2b0d66",
+  "checkpoint_sha256": {
+    "20261101": "efee3f4e7934b8ec4552a496aacb2b33a037b5f169dbb9d2accaff35d52dffb9",
+    "20261102": "9af7418252369144c2f545758de145851c355e67fa3e6014b2a6e3ed2ea8bfd0",
+    "20261103": "3d06236929da31f233a8b81805ddedbccca5a0d391441fdc72bc40b29506076c",
+    "20261104": "debbc263a674b644d00848168693421774a54e5c57e90fc9477aa87356276852",
+    "20261105": "32af4cd96dc0fd8496b83e3c767bd97cd274ac188adb472458e1393d9e124b05"
+  }
+}

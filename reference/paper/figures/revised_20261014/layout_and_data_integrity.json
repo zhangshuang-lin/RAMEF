@@ -1,0 +1,351 @@
+{
+  "sources": {
+    "outputs\\staged\\PU_UNIQUE_MEASUREMENT_REANALYSIS\\physical_code_means.json": "b1faef94fde7f9b701a993db9d9f5c17850ba3af09caa398e43fa2147ed62239",
+    "outputs\\staged\\PU_UNIQUE_MEASUREMENT_REANALYSIS\\results.json": "58885385877dc7c3ad6c00a81f01a70dca80cb9d82d69a7adc46d0e8b2c0d0c7",
+    "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\seed_metrics.csv": "2024cbe38e229efc74d68a7657394273f2dbd38f82a0da1d65bac6a0703115a6",
+    "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\label_semantics_audit\\matched_nuisance_metrics.csv": "e2e4bfa4cd2b02efa7ba1645f69ae82cb761a162a2933b5c3349f6c70598fc5f",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T1_support\\support_loo_metrics.csv": "6216c7695654a2597930bf617bef85df7451495f96d8caaf948d1268fdda5eaf",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T1_support\\leave_two_out_metrics.csv": "57d98f44d5dfb93b24414764216b33e86101b1b131eb82623f9c7988db830566",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T5_context_physics\\physical_evidence_by_run.csv": "1c4ccb80ae71f08bc6250ce3b48ffa0f2470e76c954bfc8b3e2bda1328f633ac",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T5_context_physics\\group_performance.csv": "2cb0f63f72e3d487f02be395c88acf02750d8c3241959d947667e209a191de01"
+  },
+  "checks": {
+    "figure6": {
+      "points": [
+        {
+          "code": "K001",
+          "class": 0,
+          "n": 9,
+          "bpfo": 0.7099152406056722,
+          "bpfi": 0.449766606092453,
+          "difference": 0.26014863120185006
+        },
+        {
+          "code": "K002",
+          "class": 0,
+          "n": 8,
+          "bpfo": 0.7162224650382996,
+          "bpfi": 0.57306769490242,
+          "difference": 0.14315476920455694
+        },
+        {
+          "code": "K003",
+          "class": 0,
+          "n": 15,
+          "bpfo": 0.7154598752657573,
+          "bpfi": 0.4493188997109731,
+          "difference": 0.26614097456137337
+        },
+        {
+          "code": "K004",
+          "class": 0,
+          "n": 10,
+          "bpfo": 0.7342004895210266,
+          "bpfi": 0.5872568786144257,
+          "difference": 0.14694360941648482
+        },
+        {
+          "code": "K005",
+          "class": 0,
+          "n": 6,
+          "bpfo": 0.7508448362350464,
+          "bpfi": 0.6230841875076294,
+          "difference": 0.12776066487034163
+        },
+        {
+          "code": "K006",
+          "class": 0,
+          "n": 7,
+          "bpfo": 0.7048782535961696,
+          "bpfi": 0.4638460619109018,
+          "difference": 0.24103219168526785
+        },
+        {
+          "code": "KA04",
+          "class": 2,
+          "n": 11,
+          "bpfo": 1.1688101400028577,
+          "bpfi": 0.647641425782984,
+          "difference": 0.5211687142198737
+        },
+        {
+          "code": "KA15",
+          "class": 2,
+          "n": 11,
+          "bpfo": 0.7571516362103549,
+          "bpfi": 0.6427535793998025,
+          "difference": 0.11439804800532082
+        },
+        {
+          "code": "KA16",
+          "class": 2,
+          "n": 8,
+          "bpfo": 1.2584352642297745,
+          "bpfi": 0.6928360015153885,
+          "difference": 0.5655992366373539
+        },
+        {
+          "code": "KA22",
+          "class": 2,
+          "n": 12,
+          "bpfo": 0.7445185780525208,
+          "bpfi": 0.6463441848754883,
+          "difference": 0.09817438758909702
+        },
+        {
+          "code": "KA30",
+          "class": 2,
+          "n": 12,
+          "bpfo": 0.7210822552442551,
+          "bpfi": 0.6283524384101232,
+          "difference": 0.09272981171185772
+        },
+        {
+          "code": "KI04",
+          "class": 1,
+          "n": 10,
+          "bpfo": 0.7279261469841003,
+          "bpfi": 0.6979369342327117,
+          "difference": 0.029989202762953936
+        },
+        {
+          "code": "KI14",
+          "class": 1,
+          "n": 10,
+          "bpfo": 0.7410254299640655,
+          "bpfi": 0.6618413031101227,
+          "difference": 0.07918412946164607
+        },
+        {
+          "code": "KI16",
+          "class": 1,
+          "n": 11,
+          "bpfo": 0.7828760147094727,
+          "bpfi": 0.7100653052330017,
+          "difference": 0.07281071898019449
+        },
+        {
+          "code": "KI17",
+          "class": 1,
+          "n": 12,
+          "bpfo": 0.7372577885786692,
+          "bpfi": 0.7069729069868723,
+          "difference": 0.030284876100874197
+        },
+        {
+          "code": "KI18",
+          "class": 1,
+          "n": 10,
+          "bpfo": 0.6683165669441223,
+          "bpfi": 0.7161334097385407,
+          "difference": -0.04781683512264863
+        },
+        {
+          "code": "KI21",
+          "class": 1,
+          "n": 9,
+          "bpfo": 0.7410746812820435,
+          "bpfi": 0.7184592485427856,
+          "difference": 0.022615443190766707
+        }
+      ],
+      "centre_accuracy": [
+        81.81818181818181,
+        81.81818181818181,
+        100.0,
+        66.66666666666667,
+        33.333333333333336
+      ],
+      "ramef_accuracy": [
+        100.0,
+        100.0,
+        100.0,
+        91.66666666666667,
+        91.66666666666667
+      ],
+      "all_scatter_coordinates_unchanged": true
+    },
+    "figure8": {
+      "macro_f1_mean": [
+        61.67526873997461,
+        60.25043197355571,
+        75.17497905144965,
+        96.23074209740876,
+        66.97692307692309
+      ],
+      "sample_sd": [
+        11.901665822404594,
+        7.184687319106671,
+        7.108016703101158,
+        2.8136044705381753,
+        6.016319698138162
+      ],
+      "class_recalls": [
+        [
+          89.23076923076924,
+          51.42857142857142,
+          42.857142857142854
+        ],
+        [
+          89.23076923076924,
+          62.857142857142854,
+          77.14285714285714
+        ],
+        [
+          96.92307692307693,
+          91.42857142857143,
+          100.0
+        ]
+      ],
+      "dm8_minus_lm8": [
+        23.589743589743605,
+        25.28860028860028,
+        11.42746142746143,
+        4.761904761904773,
+        30.63011063011063
+      ],
+      "ramef_minus_dm8": [
+        7.326007326007328,
+        11.61616161616162,
+        33.24786324786325,
+        25.012025012025006,
+        20.95238095238095
+      ],
+      "all_ten_paired_points_inside_axes": true
+    },
+    "figure11": {
+      "support": {
+        "U2-Hz-DM8": {
+          "loo_means": [
+            60.0,
+            60.0,
+            62.666666666666664,
+            62.666666666666664
+          ],
+          "loo_sample_sd": [
+            8.164965809277257,
+            8.164965809277257,
+            5.9628479399994365,
+            3.6514837167011023
+          ],
+          "leave_two_out": [
+            59.523809523809526,
+            58.57142857142858,
+            58.57142857142858,
+            73.33333333333333,
+            58.57142857142858
+          ]
+        },
+        "RAMEF": {
+          "loo_means": [
+            93.33333333333333,
+            97.33333333333333,
+            97.33333333333333,
+            97.33333333333333
+          ],
+          "loo_sample_sd": [
+            8.16496580927726,
+            3.65148371670111,
+            3.65148371670111,
+            3.65148371670111
+          ],
+          "leave_two_out": [
+            100.0,
+            91.42857142857143,
+            99.52380952380952,
+            93.33333333333333,
+            99.52380952380952
+          ]
+        }
+      },
+      "query_points": 27,
+      "groups": [
+        "bend",
+        "broken_bar",
+        "dynamic_eccentricity",
+        "pure_race",
+        "static_eccentricity",
+        "voltage_unbalance",
+        "winding"
+      ],
+      "dm8_accuracy": [
+        100.0,
+        90.0,
+        93.33333333333333,
+        73.33333333333333,
+        92.0,
+        100.0,
+        45.0
+      ],
+      "ramef_accuracy": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        85.0
+      ]
+    },
+    "source_files_unchanged": true
+  },
+  "outputs": {
+    "Fig6_PU_physical_evidence_corrected.svg": "d0a64f760043035a93566597296d45b1c0189481be94583fd976cbd22afc8d32",
+    "Fig6_PU_physical_evidence_corrected.pdf": "e279600d146b617f14d312915bb751bc1d31e46bad21613522d2a1967de53f21",
+    "Fig8_MCC5_evidence_corrected.svg": "48c2f2fe57025ca7c134559174863ec664c3bc91660ced0f46a19efa10475974",
+    "Fig8_MCC5_evidence_corrected.pdf": "c4915e1921c8b06b2a18d9e8a7b75d01c370b06a9d4db18524eb40fc52912233",
+    "Fig11_MCC5_support_physics_corrected.svg": "3af1fd6f56dcd2bc2a23d268e72011b8a511456f6998dc1423a1b0ff69384109",
+    "Fig11_MCC5_support_physics_corrected.pdf": "54bfea5ef6f0e9788fcb581b2f993cc9f3dc3c5c02a27dfe0d8cfcd87d8c4ae1"
+  },
+  "layout": {
+    "Fig6_PU_physical_evidence_corrected": {
+      "width_inches": 7.2,
+      "permission_tags_outside_data": [],
+      "minimum_text_pt": 9.0
+    },
+    "Fig8_MCC5_evidence_corrected": {
+      "width_inches": 7.2,
+      "permission_tags_outside_data": [
+        {
+          "text": "LOCALLY PRESPECIFIED",
+          "clearance_px": 5.01002777777785
+        },
+        {
+          "text": "LOCALLY PRESPECIFIED",
+          "clearance_px": 5.01002777777785
+        },
+        {
+          "text": "LOCALLY PRESPECIFIED",
+          "clearance_px": 5.0100277777777364
+        },
+        {
+          "text": "POST-HOC DESCRIPTIVE",
+          "clearance_px": 5.0100277777777364
+        }
+      ],
+      "minimum_text_pt": 8.5
+    },
+    "Fig11_MCC5_support_physics_corrected": {
+      "width_inches": 7.2,
+      "permission_tags_outside_data": [
+        {
+          "text": "QUERY-FREE",
+          "clearance_px": 5.120277777777801
+        },
+        {
+          "text": "QUERY-FREE",
+          "clearance_px": 5.120277777777801
+        },
+        {
+          "text": "POST-HOC DESCRIPTIVE",
+          "clearance_px": 5.120277777777801
+        },
+        {
+          "text": "POST-HOC DESCRIPTIVE",
+          "clearance_px": 5.120277777777801
+        }
+      ],
+      "minimum_text_pt": 8.5
+    }
+  }
+}

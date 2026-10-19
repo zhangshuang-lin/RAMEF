@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "predictions_recounted": 1080,
+  "metric_groups_recounted": 40,
+  "summary_rows_recounted": 8,
+  "original_reference_predictions_replayed": 405,
+  "equivalence_query_predictions": 270,
+  "equivalence_disagreements": 0,
+  "bootstrap_replicates_per_contrast": 10000,
+  "frozen_heads_unchanged": 40,
+  "frozen_model_hashes_unchanged": 15,
+  "original_target_artifacts_unchanged": true,
+  "cohort": "Fixed previously evaluated 27-run MCC5 cohort; supplementary analysis"
+}

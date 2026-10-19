@@ -1,0 +1,60 @@
+{
+  "experiment": "RAMEF_F_SUPPORT_STABILITY",
+  "status": "PASS",
+  "query_measurements_loaded": 0,
+  "folds": 105,
+  "held_predictions": 210,
+  "metrics": {
+    "U2_Hz_M8": {
+      "accuracy": 0.8666666666666667,
+      "macro_f1": 0.8560861620633916,
+      "recall_N": 1.0,
+      "recall_IR": 1.0,
+      "recall_OR": 0.6,
+      "confusion_matrix": [
+        [
+          70,
+          0,
+          0
+        ],
+        [
+          0,
+          70,
+          0
+        ],
+        [
+          15,
+          13,
+          42
+        ]
+      ],
+      "errors": 28
+    },
+    "RAMEF_F": {
+      "accuracy": 0.9714285714285714,
+      "macro_f1": 0.9716183574879227,
+      "recall_N": 0.9571428571428572,
+      "recall_IR": 0.9714285714285714,
+      "recall_OR": 0.9857142857142858,
+      "confusion_matrix": [
+        [
+          67,
+          0,
+          3
+        ],
+        [
+          0,
+          68,
+          2
+        ],
+        [
+          1,
+          0,
+          69
+        ]
+      ],
+      "errors": 6
+    }
+  },
+  "RAMEF_F_nonlower_fold_rate": 0.9619047619047619
+}

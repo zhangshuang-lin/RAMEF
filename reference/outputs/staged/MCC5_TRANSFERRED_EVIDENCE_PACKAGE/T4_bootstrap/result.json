@@ -1,0 +1,47 @@
+{
+  "experiment": "MCC5_T4_HIERARCHICAL_PAIRED_BOOTSTRAP",
+  "status": "COMPLETE_POST_HOC_FROZEN",
+  "replicates": 10000,
+  "seed": 20261220,
+  "resampling_unit": "five encoder seeds and query runs stratified within NRF/IR/OR",
+  "summary": {
+    "DM8_minus_LM8": {
+      "accuracy_delta": {
+        "mean": 0.11932888888888887,
+        "ci95": [
+          0.022222222222222254,
+          0.2222222222222222
+        ],
+        "positive_probability": 0.99
+      },
+      "macro_f1_delta": {
+        "mean": 0.15186911044242948,
+        "ci95": [
+          0.03414677822334794,
+          0.2786801976031971
+        ],
+        "positive_probability": 0.9933
+      }
+    },
+    "RAMEF_minus_DM8": {
+      "accuracy_delta": {
+        "mean": 0.17029111111111112,
+        "ci95": [
+          0.08148148148148149,
+          0.2666666666666667
+        ],
+        "positive_probability": 0.9999
+      },
+      "macro_f1_delta": {
+        "mean": 0.2061604633082322,
+        "ci95": [
+          0.09907193471686815,
+          0.32914260945995305
+        ],
+        "positive_probability": 0.9999
+      }
+    }
+  },
+  "protocol_sha256": "7bab1bda34227c5e03f9177af01c8e2edd6171e6f445fe44af4f58038a6124bc",
+  "prediction_sha256": "3cf853343e8da3dcbbd14544812681c26ce3a90e72e9974f90b449c14f16cb1c"
+}

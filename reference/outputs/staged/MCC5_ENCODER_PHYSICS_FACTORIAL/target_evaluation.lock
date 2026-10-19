@@ -1,0 +1,12 @@
+{
+  "event": "POST_TARGET_FACTORIAL_SUPPLEMENT",
+  "started_utc": "2026-10-07T07:45:38.986032+00:00",
+  "preparation_sha256": "11d8141fce5cf71aeb905bf5939c1c87cfe7d49220ef0fd9164fa4d6b163ea63",
+  "protocol_sha256": "b8bee163b548e24727958172be3b10bea30b08e4bfa2d9ac3f5f40e4518fee8e",
+  "runner_sha256": "e165357cd548a048e70e2bde2b2c24843f88835061c8886421d59f6666df08f5",
+  "query_already_accessed_historically": true,
+  "model_selection_allowed": false,
+  "completed_utc": "2026-10-07T07:45:45.921059+00:00",
+  "result_sha256": "f384b072f0f13ffd676f8f98f50ef473d7d1966eaa183d763c32f49715130017",
+  "predictions_sha256": "ac2934b7eac276aa482c966bea05d8a4e3550739efa304b68dfe216107547e1f"
+}

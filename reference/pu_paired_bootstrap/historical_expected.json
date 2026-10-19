@@ -1,0 +1,31 @@
+{
+  "source": "outputs/staged/PU_UNIQUE_MEASUREMENT_REANALYSIS/results.json",
+  "source_sha256": "58885385877dc7c3ad6c00a81f01a70dca80cb9d82d69a7adc46d0e8b2c0d0c7",
+  "checks": [
+    [["observed", "corrected"], 17],
+    [["observed", "introduced"], 0],
+    [["observed", "exact_two_sided_p"], 0.0000152587890625],
+    [["measurement_bootstrap", "summary_pp", "accuracy", "mean"], 9.959766081871344],
+    [["measurement_bootstrap", "summary_pp", "accuracy", "ci_low"], 5.847953216374268],
+    [["measurement_bootstrap", "summary_pp", "accuracy", "ci_high"], 14.619883040935665],
+    [["measurement_bootstrap", "summary_pp", "macro_f1", "mean"], 10.651773001381072],
+    [["measurement_bootstrap", "summary_pp", "macro_f1", "ci_low"], 6.178129073168415],
+    [["measurement_bootstrap", "summary_pp", "macro_f1", "ci_high"], 15.577842461898413],
+    [["measurement_bootstrap", "summary_pp", "recall_OR", "mean"], 25.97111111111111],
+    [["measurement_bootstrap", "summary_pp", "recall_OR", "ci_low"], 14.814814814814813],
+    [["measurement_bootstrap", "summary_pp", "recall_OR", "ci_high"], 37.03703703703704],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "accuracy", "mean"], 9.95907998863629],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "accuracy", "ci_low"], 4.6242774566473965],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "accuracy", "ci_high"], 16.470755347593578],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "macro_f1", "mean"], 10.634878180072796],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "macro_f1", "ci_low"], 4.908917106036359],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "macro_f1", "ci_high"], 17.775309903206395],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "recall_OR", "mean"], 25.678853008252453],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "recall_OR", "ci_low"], 10.638297872340418],
+    [["bearing_code_cluster_bootstrap", "summary_pp", "recall_OR", "ci_high"], 43.103448275862064],
+    [["code_sign_flip_all", "two_sided_p"], 0.015625],
+    [["code_sign_flip_OR", "two_sided_p"], 0.125],
+    [["leave_one_code_out_accuracy_gain_range_pp", 0], 6.2893081761006275],
+    [["leave_one_code_out_accuracy_gain_range_pp", 1], 10.897435897435903]
+  ]
+}

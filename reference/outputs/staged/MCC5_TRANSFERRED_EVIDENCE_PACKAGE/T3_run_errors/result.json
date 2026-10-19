@@ -1,0 +1,20 @@
+{
+  "experiment": "MCC5_T3_RUN_LEVEL_ERROR_AUDIT",
+  "status": "COMPLETE_POST_HOC_FROZEN",
+  "runs": 27,
+  "seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105
+  ],
+  "totals": {
+    "dm8_fixes_lm8": 19,
+    "dm8_new_errors": 3,
+    "ramef_fixes_dm8": 23,
+    "ramef_new_errors": 0
+  },
+  "protocol_sha256": "7bab1bda34227c5e03f9177af01c8e2edd6171e6f445fe44af4f58038a6124bc",
+  "prediction_sha256": "3cf853343e8da3dcbbd14544812681c26ce3a90e72e9974f90b449c14f16cb1c"
+}

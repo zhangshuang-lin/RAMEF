@@ -1,0 +1,37 @@
+{
+  "started_utc": "2026-10-05T12:16:53.413211+00:00",
+  "event": "POST_TARGET_SUPPLEMENTARY_FAIRNESS",
+  "prepared_registry_sha256": "e15a2a3d8aa483fbce860faac79fc85e55571e59aef307a131e8e1a9bb1c8da8",
+  "amendment_sha256": "d6cf065ca5b18b5460c531c64adc975e1ba6eced92b01851f4ca3be83b50ccc3",
+  "runner_sha256": "ba88531b1503dab77f1ee7ae7e1a0ec24abe0dff84b78f45f1c73fd9863ffc31",
+  "seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105
+  ],
+  "views": [
+    "carrier1024_C01",
+    "carrier128_common_C01",
+    "carrier128_equivalent_C08",
+    "carrier_sourcePCA128_C01",
+    "wdcnn_original128_C01",
+    "wdcnn_widthMatched128_C01",
+    "fusion1087_C01",
+    "fusion191_equivalent_C01"
+  ],
+  "original_artifact_hashes": {
+    "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\target_evaluation.lock": "c11a9d778a76cfaf1f300ccbb1c0b9f8a90d680696cf9e5dea8e95f2b381c920",
+    "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\result.json": "f2d4fe5a5a146ebdab742dcb1971c7fe80190123503055392d33635f5d07da13",
+    "outputs\\staged\\MCC5_RAMEF_CONFIRMATORY\\run\\predictions.csv": "3cf853343e8da3dcbbd14544812681c26ce3a90e72e9974f90b449c14f16cb1c",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T2_benchmark\\target_evaluation.lock": "87776e2c2d90d5c62ce1164067a8970c95874a71abbb428a6998e988faced6ff",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T2_benchmark\\result.json": "fa0b78b5afbbac01d6def2faa6c899cbabe43405308371f4b119201e44e43c9e",
+    "outputs\\staged\\MCC5_TRANSFERRED_EVIDENCE_PACKAGE\\T2_benchmark\\predictions.csv": "93e57226f64f8f48f31f667c521e3131bd88fe8b3c1fee90a18d0aabd66cf4a0"
+  },
+  "model_selection_allowed": false,
+  "completed_utc": "2026-10-05T12:17:06.009779+00:00",
+  "result_sha256": "8d40185e6421e08655854e2d475f9a3156294dc894dec17e23710c7597c8431d",
+  "predictions_sha256": "ac09578eb9d6cd4864c55c58b4ef724a94b9bcc3a43d1538bab5ec30de2b95b9",
+  "query_cache_sha256": "b358a052f63c347516c4fe55baf7ed5bc38163297ea799603fb78b170c401ae1"
+}

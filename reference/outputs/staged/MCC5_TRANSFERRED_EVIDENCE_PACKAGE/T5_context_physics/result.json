@@ -1,0 +1,9 @@
+{
+  "experiment": "MCC5_T5_CONTEXT_SEVERITY_PHYSICS",
+  "status": "COMPLETE_POST_HOC_DESCRIPTIVE",
+  "minimum_group_runs": 2,
+  "query_runs": 27,
+  "support_runs": 15,
+  "protocol_sha256": "7bab1bda34227c5e03f9177af01c8e2edd6171e6f445fe44af4f58038a6124bc",
+  "query_cache_sha256": "b358a052f63c347516c4fe55baf7ed5bc38163297ea799603fb78b170c401ae1"
+}
