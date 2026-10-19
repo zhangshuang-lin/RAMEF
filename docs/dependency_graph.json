@@ -1,0 +1,321 @@
+{
+  "entrypoints": {
+    "u2_stft_model": "Adopted U2-Hz architecture and inactive historical branches",
+    "racp_or": "PU eight-block coordinates and fixed 63D physical descriptor",
+    "data_loader_pu": "Official PU vibration-channel loading",
+    "mcc5_confirmatory_data": "MCC5 role-aware data preparation and fixed physical63",
+    "run_mcc5_ramef_confirmatory": "Original MCC5 train/evaluate runner; use portable launcher",
+    "run_ramef_fiveseed_rerun": "PU source-freeze/evaluate five-seed archive; stage prerequisites",
+    "prepare_racp_measurement_final": "Historical PU frozen calibration preparation",
+    "run_racp_measurement_final_once": "Historical PU 240-entry evaluation; not a default replay command",
+    "run_pu_eightblock_fair_baselines": "PU equal-input encoder implementations",
+    "run_pu_multiseed_stability": "Earlier PU initialisation audit",
+    "run_support_calibration_direct_ablation": "Source/support-only and prototype head attribution",
+    "run_racp_linear_support_stability": "Historical support-deletion fit; see exact comparator in docs",
+    "run_u2hz_freeze_support_audit": "Query-free frozen versus neural-adaptation audit",
+    "run_ramef_design_sensitivity": "Query-free classifier and weight audit",
+    "run_ramef_threshold_sensitivity": "Query-free occurrence-statistic audit",
+    "audit_mcc5_full_dataset": "MCC5 structural and keyphase inventory",
+    "prepare_mcc5_localisation_protocol": "MCC5 run-role manifest construction",
+    "run_mcc5_t1_support_stability": "MCC5 registered support-neighbourhood audit",
+    "run_mcc5_t2_fair_benchmark": "MCC5 WDCNN/ResNet/STFT/DANN/ProtoNet comparison",
+    "run_mcc5_t3_t5_analysis": "MCC5 paired run errors, pooled bootstrap and physical context",
+    "run_mcc5_capacity_dimension_p0": "MCC5 source-only dimension/capacity preparation",
+    "run_mcc5_carrier_dimension_equivalence_p0b": "MCC5 repeated-coordinate equivalence audit",
+    "prepare_mcc5_posthoc_fair_comparison": "Prepare frozen post-target head comparisons",
+    "run_mcc5_posthoc_fair_comparison_once": "Historical separately locked dimension/capacity scoring",
+    "run_mcc5_encoder_physics_factorial": "Historical post-target same-physics 2x2",
+    "audit_mcc5_label_semantics": "Pure/compound and matched-nuisance descriptions",
+    "audit_mcc5_physical_only": "MCC5 physical-only descriptive control",
+    "run_sq_ramef_carrier": "SQ native carrier ceiling task",
+    "prepare_sq_ramef_p0": "SQ run split and speed-region preparation",
+    "run_cwru_ramef_cross_load": "CWRU ten-class native cross-load ceiling task",
+    "create_cwru_ramef_bag_splits": "CWRU parent-record-aware bag split"
+  },
+  "local_imports": {
+    "angular_cycle_topology": [],
+    "audit_mcc5_full_dataset": [
+      "audit_mcc5_ramef_p0"
+    ],
+    "audit_mcc5_label_semantics": [],
+    "audit_mcc5_physical_only": [
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "audit_mcc5_ramef_p0": [],
+    "audit_x0b_phase_topology": [
+      "angular_cycle_topology",
+      "data_loader_pu"
+    ],
+    "bottleneck_deconvolution": [
+      "data_loader_pu",
+      "prepare_splits",
+      "u2_stft_model"
+    ],
+    "capacity_matched_baselines": [
+      "fair_baseline_models"
+    ],
+    "coordinate_carrier_order": [],
+    "create_cwru_ramef_bag_splits": [
+      "bottleneck_deconvolution"
+    ],
+    "data_loader_pu": [],
+    "fair_baseline_models": [],
+    "geometry_static_evidence": [],
+    "mc_sbt": [],
+    "mcc5_confirmatory_data": [],
+    "prepare_mcc5_localisation_protocol": [],
+    "prepare_mcc5_posthoc_fair_comparison": [
+      "mcc5_confirmatory_data",
+      "run_mcc5_capacity_dimension_p0",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "prepare_racp_measurement_final": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_a1_u2hz_confirmation",
+      "run_mc_sbt_p0",
+      "run_tser_hb_support_p0"
+    ],
+    "prepare_splits": [
+      "data_loader_pu"
+    ],
+    "prepare_sq_ramef_p0": [
+      "bottleneck_deconvolution",
+      "sq_data"
+    ],
+    "racp_ablation": [],
+    "racp_or": [],
+    "run_a1_u2hz_confirmation": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_core_component_ablation",
+      "run_cwru_10class_baseline",
+      "run_fair_baseline_pu",
+      "run_lcga_fresh_p0",
+      "run_mc_sbt_p0"
+    ],
+    "run_c2of": [
+      "audit_x0b_phase_topology",
+      "bottleneck_deconvolution",
+      "coordinate_carrier_order",
+      "data_loader_pu"
+    ],
+    "run_core_component_ablation": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_c2of",
+      "run_fair_baseline_pu",
+      "run_lcga_fresh_p0",
+      "run_lcga_paper_main",
+      "run_mc_sbt_p0",
+      "run_paper_main",
+      "u2_stft_model"
+    ],
+    "run_cwru_10class_baseline": [
+      "bottleneck_deconvolution",
+      "run_lcga_fresh_p0",
+      "run_mc_sbt_p0"
+    ],
+    "run_cwru_native_a1_multiseed": [
+      "audit_x0b_phase_topology",
+      "run_core_component_ablation",
+      "run_cwru_10class_baseline",
+      "run_cwru_native_u2"
+    ],
+    "run_cwru_native_u2": [
+      "bottleneck_deconvolution",
+      "run_core_component_ablation",
+      "run_cwru_10class_baseline",
+      "run_lcga_fresh_p0"
+    ],
+    "run_cwru_ramef_cross_load": [
+      "bottleneck_deconvolution",
+      "geometry_static_evidence",
+      "racp_ablation",
+      "run_core_component_ablation",
+      "run_cwru_10class_baseline",
+      "run_cwru_native_a1_multiseed",
+      "run_cwru_native_u2"
+    ],
+    "run_fair_baseline_pu": [
+      "bottleneck_deconvolution",
+      "fair_baseline_models",
+      "prepare_splits",
+      "run_c2of",
+      "run_lcga_fresh_p0",
+      "run_lcga_paper_main",
+      "run_mc_sbt_p0",
+      "run_paper_main"
+    ],
+    "run_lcga_fresh_p0": [
+      "bottleneck_deconvolution",
+      "mc_sbt",
+      "prepare_splits",
+      "run_mc_sbt_p0"
+    ],
+    "run_lcga_paper_main": [
+      "bottleneck_deconvolution",
+      "mc_sbt",
+      "prepare_splits",
+      "run_c2of",
+      "run_lcga_fresh_p0",
+      "run_mc_sbt_p0",
+      "run_paper_main"
+    ],
+    "run_mc_sbt_p0": [
+      "bottleneck_deconvolution",
+      "mc_sbt",
+      "prepare_splits"
+    ],
+    "run_mcc5_capacity_dimension_p0": [
+      "capacity_matched_baselines",
+      "fair_baseline_models",
+      "mcc5_confirmatory_data",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_mcc5_carrier_dimension_equivalence_p0b": [
+      "mcc5_confirmatory_data",
+      "run_mcc5_capacity_dimension_p0",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_mcc5_encoder_physics_factorial": [
+      "capacity_matched_baselines",
+      "mcc5_confirmatory_data",
+      "run_mcc5_capacity_dimension_p0",
+      "run_mcc5_posthoc_fair_comparison_once",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_mcc5_posthoc_fair_comparison_once": [
+      "capacity_matched_baselines",
+      "fair_baseline_models",
+      "mcc5_confirmatory_data",
+      "run_mcc5_capacity_dimension_p0",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_mcc5_ramef_confirmatory": [
+      "mcc5_confirmatory_data",
+      "u2_stft_model"
+    ],
+    "run_mcc5_t1_support_stability": [
+      "mcc5_confirmatory_data",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_mcc5_t2_fair_benchmark": [
+      "fair_baseline_models",
+      "mcc5_confirmatory_data",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_mcc5_t3_t5_analysis": [
+      "mcc5_confirmatory_data",
+      "run_mcc5_ramef_confirmatory"
+    ],
+    "run_paper_main": [
+      "bottleneck_deconvolution",
+      "run_c2of"
+    ],
+    "run_pu_eightblock_fair_baselines": [
+      "bottleneck_deconvolution",
+      "fair_baseline_models",
+      "prepare_splits",
+      "racp_or",
+      "run_mc_sbt_p0",
+      "run_racp_measurement_final_once",
+      "run_tser_hb_support_p0"
+    ],
+    "run_pu_multiseed_stability": [
+      "bottleneck_deconvolution",
+      "fair_baseline_models",
+      "prepare_splits",
+      "run_core_component_ablation",
+      "run_fair_baseline_pu",
+      "run_mc_sbt_p0",
+      "run_pu_eightblock_fair_baselines",
+      "run_racp_measurement_final_once",
+      "run_tser_hb_support_p0"
+    ],
+    "run_racp_linear_support_stability": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_mc_sbt_p0",
+      "run_tser_hb_support_p0"
+    ],
+    "run_racp_measurement_final_once": [
+      "bottleneck_deconvolution",
+      "run_a1_u2hz_confirmation",
+      "run_racp_or_information_p0"
+    ],
+    "run_racp_or_information_p0": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "racp_or",
+      "run_a1_u2hz_confirmation",
+      "run_core_component_ablation",
+      "run_mc_sbt_p0"
+    ],
+    "run_ramef_design_sensitivity": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_mc_sbt_p0",
+      "run_tser_hb_support_p0"
+    ],
+    "run_ramef_fiveseed_rerun": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_core_component_ablation",
+      "run_fair_baseline_pu",
+      "run_mc_sbt_p0",
+      "run_pu_eightblock_fair_baselines",
+      "run_pu_multiseed_stability",
+      "run_racp_measurement_final_once",
+      "run_tser_hb_support_p0"
+    ],
+    "run_ramef_threshold_sensitivity": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "racp_or",
+      "run_mc_sbt_p0",
+      "run_ramef_design_sensitivity",
+      "run_tser_hb_support_p0"
+    ],
+    "run_sq_ramef_carrier": [
+      "bottleneck_deconvolution",
+      "sq_data",
+      "u2_stft_model"
+    ],
+    "run_support_calibration_direct_ablation": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_a1_u2hz_confirmation",
+      "run_mc_sbt_p0"
+    ],
+    "run_tser_hb_support_p0": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "run_mc_sbt_p0",
+      "tser_hb"
+    ],
+    "run_u2hz_freeze_support_audit": [
+      "bottleneck_deconvolution",
+      "prepare_splits",
+      "racp_or",
+      "run_a1_u2hz_confirmation",
+      "run_core_component_ablation",
+      "run_mc_sbt_p0",
+      "run_tser_hb_support_p0"
+    ],
+    "sq_data": [],
+    "tser_hb": [],
+    "u2_stft_model": []
+  },
+  "nonstdlib_import_roots": [
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "sklearn",
+    "threadpoolctl",
+    "torch",
+    "yaml"
+  ]
+}

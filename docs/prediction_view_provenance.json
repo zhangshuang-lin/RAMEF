@@ -1,0 +1,247 @@
+{
+  "transform": "Only column selection, method aliases, cohort tags, and missing context joins; no predictions refitted or selected",
+  "pu_rows": 14160,
+  "mcc5_rows": 3240,
+  "inputs": [
+    {
+      "source": "outputs/staged/RACP_FAIR_ABLATION/predictions.csv",
+      "sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/RACP_FAIR_ABLATION/predictions.csv",
+      "sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/RACP_FAIR_ABLATION/predictions.csv",
+      "sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/RACP_FAIR_ABLATION/predictions.csv",
+      "sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/RACP_FAIR_ABLATION/predictions.csv",
+      "sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/RACP_FAIR_ABLATION/predictions.csv",
+      "sha256": "f51d74badfbccaede3b4442c75186a0e7cd560d73104be60db45005786110007",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/PU_EIGHTBLOCK_FAIR_BASELINES/predictions.csv",
+      "sha256": "0da04e34ef9bff1ad6ea79b80bb6738101fdd290c5e599e2c88ace3636fdb589",
+      "cohort": "locked"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/SUPPORT_CALIBRATION_DIRECT_ABLATION/predictions.csv",
+      "sha256": "f8a21ca0f09c8147dc86645e59ed9286d1e453ce35559ac34da3f1e15179bf09",
+      "cohort": "calibration"
+    },
+    {
+      "source": "outputs/staged/RAMEF_FIVESEED_RERUN_20260921/target_predictions.csv",
+      "sha256": "a7542dfe5e5bf4d68f918c71695236755446d3fe054434f431a63a48866624e2",
+      "cohort": "new_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/resnet1d_seed20260901.csv",
+      "sha256": "e4c3d41ae8947b27f5905afbb7c10902c3270f7c66851fccf5dd3556e56ba868",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/resnet1d_seed20260902.csv",
+      "sha256": "b7bc407bb92a547f914d5d2303e7c360a588aaad14e4c52a1bf51227625e6f75",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/resnet1d_seed20260903.csv",
+      "sha256": "649175479139591b25b2e46d8b3e8d8ab739421e3048c4d379f3f5f15079523d",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/resnet1d_seed20260904.csv",
+      "sha256": "0c86ff04983c38c80073ba7ac7cee7d40d168d844b21f9755e317cbb7c2ffb23",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/resnet1d_seed20260905.csv",
+      "sha256": "4cb71e5f15f3bc841552d3cdc08377b49b9a6181525b3aeb00b94d6fa58fee3b",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/stft_cnn_seed20260901.csv",
+      "sha256": "53f7682c296eba637366fdd8f34af27bcf575ceaa4c7b081c3d13e86ab8a1ac8",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/stft_cnn_seed20260902.csv",
+      "sha256": "3a4897a24a8e1330835ff7456eb1447b4154672df690db2ffd9ed350221c7fb0",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/stft_cnn_seed20260903.csv",
+      "sha256": "00b02c875c7585d9288bd8eb8a8b4adf892b1739e94c7c22b45b5511503ccf6d",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/stft_cnn_seed20260904.csv",
+      "sha256": "2c969d9e9a05a4031e899a8a75669fbd8fb5d73f1f5518a444fea3d943f65bc7",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/stft_cnn_seed20260905.csv",
+      "sha256": "e7c028ed318f8c97e842931623e07bb8533ef0c2b0d435a186b9a324ca1c444c",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/u2_hz_seed20260901.csv",
+      "sha256": "1757da976c821184c7953e6f3cbd90af7e6ea732a011dedcaeb7ab7dca3235d1",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/u2_hz_seed20260902.csv",
+      "sha256": "716d53a90127cd45ae26203cc4bb1caac96a52f21119cef81004d91c04c06f60",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/u2_hz_seed20260903.csv",
+      "sha256": "11b85f2f85e3cef803bdab5b90be609dcad9b4f95cecd7d54ad9445ac9630e41",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/u2_hz_seed20260904.csv",
+      "sha256": "eb1164d02da14d618dc8bfd306d7fbb9052aba5468d076e20a401f9f141ba0a7",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/u2_hz_seed20260905.csv",
+      "sha256": "67a199392b25fb2705775b6bc4cdf98d5ce58b7f312f0ebafe6df53170723b0e",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_dann_seed20260901.csv",
+      "sha256": "25c903e62abd4f202fe66bb0274a6130ece20490ebad8be6ee1940245aad4bc7",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_dann_seed20260902.csv",
+      "sha256": "2bd5a10327394888e2f5570b9319d24dcd9e43f2697fe9d6f08cce8acef5e4ea",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_dann_seed20260903.csv",
+      "sha256": "70f6067cc5bbf252d1d4ded63880811fd6910654c873662b82025933344746d6",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_dann_seed20260904.csv",
+      "sha256": "abbcac6d22a34981a716d6bde41f06f490668af3bf606af66e6fca0c54404f9a",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_dann_seed20260905.csv",
+      "sha256": "e9dabdf59071088fb235cdbf21bd5eab189d0b40ac317d8314b334ac2dcf029f",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_seed20260901.csv",
+      "sha256": "282b4589efee44bce7a6bf6ce61fb2868ed00ffcc5c13183bbf8e7bfe8767001",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_seed20260902.csv",
+      "sha256": "a20058395e240d5ab4c4c5a5daf68fe45c384bfc0c6bd0aec30ce388d5ab5733",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_seed20260903.csv",
+      "sha256": "16a54ab2f5707354243150dd6a173a5b082d710633f9b1b12a71b32eb1a5bac2",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_seed20260904.csv",
+      "sha256": "62f9499e74fa3fff2bb12bc10cfe14281659746ae7fca7b812fd5586d754a57e",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_MULTISEED_STABILITY/predictions/wdcnn_seed20260905.csv",
+      "sha256": "6a5bae2a90d6747081755bbb440d25a449fb8ba76c782b16262e79d5c24e4540",
+      "cohort": "earlier_five_seed"
+    },
+    {
+      "source": "outputs/staged/PU_UNIQUE_BUDGET_RECONSTRUCTION/predictions.csv",
+      "sha256": "15036604d43e6e018fabc25c0cd0835dd70115df4dfa81f1defd74f830b91826",
+      "cohort": "budget"
+    },
+    {
+      "source": "outputs/staged/MCC5_RAMEF_CONFIRMATORY/run/predictions.csv",
+      "sha256": "3cf853343e8da3dcbbd14544812681c26ce3a90e72e9974f90b449c14f16cb1c",
+      "cohort": "primary"
+    },
+    {
+      "source": "outputs/staged/MCC5_TRANSFERRED_EVIDENCE_PACKAGE/T2_benchmark/predictions.csv",
+      "sha256": "93e57226f64f8f48f31f667c521e3131bd88fe8b3c1fee90a18d0aabd66cf4a0",
+      "cohort": "equal_input"
+    },
+    {
+      "source": "outputs/staged/MCC5_POSTHOC_FAIR_COMPARISON/predictions.csv",
+      "sha256": "ac09578eb9d6cd4864c55c58b4ef724a94b9bcc3a43d1538bab5ec30de2b95b9",
+      "cohort": "capacity"
+    },
+    {
+      "source": "outputs/staged/MCC5_ENCODER_PHYSICS_FACTORIAL/predictions.csv",
+      "sha256": "ac2934b7eac276aa482c966bea05d8a4e3550739efa304b68dfe216107547e1f",
+      "cohort": "factorial"
+    }
+  ]
+}
