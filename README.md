@@ -190,12 +190,4 @@ python scripts/mcc5_pipeline.py evaluate --data-root "PATH_TO_MCC5_DATA" --work-
 
 原模型资产的文件名与SHA-256可在[模型资产清单](docs/EXTERNAL_MODEL_ASSETS.csv)中核对；当前清单不提供下载地址，也不表示这些资产已经公开发布。
 
-## 10. 许可与引用
 
-代码许可证、贡献者授权及第三方数据衍生结果的分享条件需在公开前确认，详见[许可状态](LICENSE_STATUS.md)、[第三方说明](THIRD_PARTY_NOTICES.md)和[上传检查清单](UPLOAD_CHECKLIST.md)。
-
-论文题目：*Rotation-aware measurement evidence fusion for cross-speed five-shot bearing fault diagnosis*。
-
-作者、正式发表信息、GitHub仓库地址、发布版本及归档DOI由作者在实际发布后填写。本说明不预设已发表状态，不虚构标识或许可授权。
-
-> 本地整理阶段已通过33项单元测试、文件哈希与语法检查，并成功重放PU与MCC5关键预测指标。这些检查不等同于在全新机器上重新完成原始数据端到端训练。
