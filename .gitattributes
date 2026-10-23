@@ -1,0 +1,3 @@
+# Preserve exact stored bytes, including historical protocol and evidence hashes.
+# Do not run bulk line-ending normalisation on the archived scientific records.
+* -text
