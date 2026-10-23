@@ -2,7 +2,9 @@
 
 **Rotation-aware measurement evidence fusion for cross-speed five-shot bearing fault diagnosis**
 
-[English documentation](README_en.md)
+[English documentation](README_en.md) · [公开仓库](https://github.com/zhangshuang-lin/RAMEF)
+
+本地发布包版本：`2026.10.23-submission-sync`。对应主稿、补充材料与图源身份见[版本映射](docs/MANUSCRIPT_VERSION.json)。该包尚未被声明为新的线上release或DOI归档。
 
 本项目提供RAMEF的模型实现、实验脚本、固定数据划分、预测记录和指标复算工具。RAMEF以一条完整物理测量记录（measurement）为决策单位，通过分布式观测、载波与软阶次证据融合，以及目标support校准，完成跨转速小样本诊断。
 
@@ -29,7 +31,7 @@ measurement级载波与63维物理描述符融合
 - **63维物理路径**：在固定频带内提取包络证据，围绕轴承故障阶次的理论位置计算软频率邻域证据，并汇总跨block统计量；该路径不含可训练参数。
 - **目标support校准**：冻结编码器后，用源特征和少量带标签目标support拟合标准化器与多项逻辑回归分类头。query不参与拟合、参数选择或测试时更新。
 
-RAMEF表示整体流程；RAMEF-F表示完整63维描述符实现，MCC5结果表中的RAMEF是同一完整实现的短标签。
+本文及当前文档统一使用RAMEF。历史脚本、预测CSV或日志中的RAMEF-F是同一完整63维实现的旧别名，保留原字段以维持历史记录及哈希可核对。
 
 ## 2. 快速开始
 
@@ -113,9 +115,9 @@ CWRU提供原生十分类跨负载实验，SQ提供原生三分类变速实验�
 |---|---:|---:|
 | Centre-crop U2-Hz | 88.89 | 88.16 |
 | U2-Hz-DM8 | 97.66 | 97.55 |
-| RAMEF-F | 98.83 | 98.78 |
+| RAMEF | 98.83 | 98.78 |
 
-另一次预先固定种子的五种子RAMEF-F实验得到Accuracy **94.04% ± 1.91%**、Macro-F1 **93.76% ± 2.00%**。锁定单种子结果与五种子均值应分开解释。
+另一次预先固定种子的五种子RAMEF实验得到Accuracy **94.04% ± 1.91%**、Macro-F1 **93.76% ± 2.00%**。锁定单种子结果与五种子均值应分开解释。
 
 ### MCC5：原本地预先指定比较，27条固定query运行
 
@@ -191,3 +193,14 @@ python scripts/mcc5_pipeline.py evaluate --data-root "PATH_TO_MCC5_DATA" --work-
 原模型资产的文件名与SHA-256可在[模型资产清单](docs/EXTERNAL_MODEL_ASSETS.csv)中核对；当前清单不提供下载地址，也不表示这些资产已经公开发布。
 
 
+
+
+## 10. 当前版本与引用
+
+仓库：https://github.com/zhangshuang-lin/RAMEF 。引用未发表稿的方式见[CITATION.md](CITATION.md)。现行论文标题保持不变；尚未采纳的候选标题不写入本包。
+
+图1现行源码为v16及v15依赖；[当前成图](figures/current/Figure_01.svg)可直接查看。原始波形片段不随包分发，重绘前提见[图源说明](figures/README.md)。
+
+本包使用`.gitattributes`保留精确字节；不要批量规范化历史协议、预测或评估锁的换行。代码使用、修改及再分发授权仍见[LICENSE_STATUS.md](LICENSE_STATUS.md)，本次未擅自授予软件许可证。
+
+更新内容见[CHANGELOG.md](CHANGELOG.md)，上传步骤见[UPLOAD_INSTRUCTIONS.md](UPLOAD_INSTRUCTIONS.md)。上传后需从GitHub再下载一次运行校验；本地测试不等于已发布新版本。

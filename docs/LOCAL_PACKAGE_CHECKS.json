@@ -1,0 +1,70 @@
+{
+  "status": "PASS_LOCAL_CHECKS",
+  "date": "2026-10-23",
+  "python": "3.12.14",
+  "parent_public_commit": "1c75f7eab840a1b7d48801a08c29beadb4bb974f",
+  "package_version": "2026.10.23-submission-sync",
+  "unit_tests_passed": 41,
+  "unit_test_scope": "33 pre-existing launcher/replay tests plus 8 synthetic packaging tests",
+  "distribution_verifier": {
+    "status": "PASS",
+    "manifest_files": 208,
+    "manifest_coverage_complete": true,
+    "code_modules": 57,
+    "python_sources_parsed": 74,
+    "line_endings": "Exact byte checks; no implicit normalisation",
+    "high_confidence_privacy_scan_hits": 0,
+    "forbidden_binary_artifacts": [],
+    "imports_executed": false,
+    "models_loaded": false,
+    "target_inference_performed": false,
+    "excluded_runtime_locations": [
+      ".git",
+      "__pycache__",
+      ".pytest_cache",
+      "runs/",
+      "tmp/"
+    ],
+    "scope": "Distribution integrity/static checks, not scientific validity, licensing or external-registration certification"
+  },
+  "prediction_replay": {
+    "status": "PASS_FROZEN_PREDICTION_REPLAY",
+    "pu_unique_measurements": 171,
+    "mcc5_query_runs": 27,
+    "headline_checks": {
+      "pu_locked_centre_accuracy": 88.88888888888889,
+      "pu_locked_U2-Hz-DM8_accuracy": 97.6608187134503,
+      "pu_locked_RAMEF-F_accuracy": 98.83040935672514,
+      "pu_new_five_seed_RAMEF-F_accuracy": {
+        "mean": 94.03508771929825,
+        "sample_sd": 1.9129154659410696
+      },
+      "pu_new_five_seed_RAMEF-F_macro_f1": {
+        "mean": 93.7564121974332,
+        "sample_sd": 2.0035969863078025
+      },
+      "mcc5_primary_RAMEF_accuracy": {
+        "mean": 96.29629629629629,
+        "sample_sd": 2.6189140043946195
+      }
+    }
+  },
+  "scientific_files_byte_preserved": 148,
+  "parent_source_provenance_table_byte_preserved": true,
+  "current_artwork_svgs": 13,
+  "artwork_identical_to_final_submission_package": true,
+  "git_windows_autocrlf_true_roundtrip": {
+    "status": "PASS",
+    "distribution_files_preserved": 209,
+    "historical_mixed_line_endings_retained": true,
+    "remote_or_commit_created": false
+  },
+  "relative_entrypoint_links": "PASS",
+  "new_raw_training": false,
+  "new_target_inference": false,
+  "new_graph_rendering": false,
+  "remote_upload_or_release_created": false,
+  "software_licence_granted": false,
+  "archival_doi_assigned": false,
+  "scope": "Local packaging and prediction replay only; full raw-data end-to-end locked-model reproduction and remote post-upload verification are not certified"
+}

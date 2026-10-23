@@ -1,7 +1,20 @@
-# Code availability template
+# Code availability: repository and version wording
 
-Replace the brackets only after the repository is public and the archived release exists.
+The actual repository is https://github.com/zhangshuang-lin/RAMEF.
 
-The source code, fixed split manifests, and prediction-based replay scripts are available at [PUBLIC GITHUB REPOSITORY URL]. The version associated with this manuscript is [RELEASE TAG OR COMMIT]; its archival identifier is [DOI, IF ASSIGNED]. Third-party raw recordings must be obtained from their original providers.
+The following base statement describes the public project:
 
-Do not state that code is publicly available while the repository remains private or the URL is unassigned. Author names, repository URL, license and DOI have not been invented in this bundle.
+> Source code, fixed split manifests and prediction-based replay materials are
+> available at https://github.com/zhangshuang-lin/RAMEF. Third-party raw recordings
+> must be obtained from their original providers. The public repository excludes
+> feature caches, model checkpoints and fitted classifiers.
+
+After uploading and verifying the new package, identify its **actual public
+commit or release** in the submission record. `2026.10.23-submission-sync` is a
+local package version, not a claim that a GitHub tag with that name exists.
+No DOI is assigned here. Do not describe local complete-model archives as
+publicly deposited unless their download location is actually available.
+
+`MANUSCRIPT_VERSION.json` records the manuscript/supplement identities associated
+with this package. No manuscript wording is automatically changed by preparing
+the repository update.

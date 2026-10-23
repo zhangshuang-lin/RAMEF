@@ -2,7 +2,9 @@
 
 This repository accompanies **Rotation-aware measurement evidence fusion for cross-speed five-shot bearing fault diagnosis**. RAMEF combines distributed non-overlapping observation, a U2-Hz carrier representation, a 63-coordinate soft-order descriptor, and a target-support-calibrated linear classifier.
 
-This is a lightweight **code + prediction/reference** package prepared for author upload. It does not contain third-party vibration recordings, feature caches, model checkpoints, fitted classifier files, or manuscript/reference PDFs. It is not itself evidence of a completed public deposit.
+The public project is hosted at https://github.com/zhangshuang-lin/RAMEF. This locally prepared update is version `2026.10.23-submission-sync`; its manuscript and supplementary identities are recorded in `docs/MANUSCRIPT_VERSION.json`. It contains code, prediction/reference material and the final vector artwork, but no third-party raw recordings, feature caches, checkpoints, fitted classifiers or manuscript PDFs. This package is not a claim that the update has already been uploaded or assigned a release DOI.
+
+Historical source code and prediction fields retain the alias `RAMEF-F` for the same complete 63-coordinate implementation. Public-facing documentation uses RAMEF; original evidence fields and hashes are not renamed.
 
 ## Start here
 
@@ -34,15 +36,15 @@ See `docs/SCRIPT_INDEX.md` for the role and prerequisites of each script and `do
 
 ### PU development cohort
 
-The primary unit is one vote per distinct measurement: **171 measurements**, not 240 independent records. The 240-entry ledger is retained as historical provenance where included. The locked centre-crop, U2-Hz-DM8, and RAMEF-F results are:
+The primary unit is one vote per distinct measurement: **171 measurements**, not 240 independent records. The 240-entry ledger is retained as historical provenance where included. The locked centre-crop, U2-Hz-DM8, and RAMEF results are:
 
 | Method | Accuracy (%) | Macro-F1 (%) |
 |---|---:|---:|
 | Centre-crop U2-Hz | 88.89 | 88.16 |
 | U2-Hz-DM8 | 97.66 | 97.55 |
-| RAMEF-F | 98.83 | 98.78 |
+| RAMEF | 98.83 | 98.78 |
 
-The separate new-five-seed RAMEF-F summary is **94.04% ± 1.91% Accuracy** and **93.76% ± 2.00% Macro-F1**. The standard deviations describe encoder-initialisation variability on the same measurement cohort. The PU query had been accessed during project development; these are locked, historically accessed **development-cohort** results. Measurement isolation is not bearing-specimen isolation, and blocks do not count as shots.
+The separate new-five-seed RAMEF summary is **94.04% ± 1.91% Accuracy** and **93.76% ± 2.00% Macro-F1**. The standard deviations describe encoder-initialisation variability on the same measurement cohort. The PU query had been accessed during project development; these are locked, historically accessed **development-cohort** results. Measurement isolation is not bearing-specimen isolation, and blocks do not count as shots.
 
 ### MCC5 run-level stress test
 
@@ -74,4 +76,13 @@ Figure scripts are archived source, not a promise that all manuscript figures re
 
 The bundled manifest records file SHA-256 values. Verification detects changed or missing bundle files; it does not certify the chronology of an external preregistration service or establish scientific validity by itself. Original measurement/run identities are retained; portable file-location changes do not redefine the split.
 
-Author identity, repository URL, archival DOI, and software/data licensing require author confirmation before publication. See `LICENSE_STATUS.md`, `THIRD_PARTY_NOTICES.md`, and `UPLOAD_CHECKLIST.md`. No software licence or third-party redistribution permission is implied by this preparation package.
+The repository URL is https://github.com/zhangshuang-lin/RAMEF. The current package retains the manuscript title and has no assigned archival DOI or newly published release tag. See `CITATION.md` for the unpublished-manuscript citation and `docs/MANUSCRIPT_VERSION.json` for exact identities. Software licensing and third-party permissions remain subject to the rights holders' confirmation; this update does not grant a licence. See `LICENSE_STATUS.md`, `THIRD_PARTY_NOTICES.md` and `UPLOAD_CHECKLIST.md`.
+
+
+## Byte preservation and current artwork
+
+The repository's `.gitattributes` preserves exact stored bytes, including historical mixed line endings. Use a fresh checkout when an earlier Windows checkout has already converted line endings. Do not renormalise historical protocols, prediction files or evaluation locks to make a checksum pass.
+
+The current Figure 1 source chain is v16 → v15, archived under `figures/source/fig1/`. Final manuscript SVGs are under `figures/current/`; these are publication artwork, not raw waveform deposits. Rebuilding Figure 1 requires the externally obtained source-derived waveform assets documented in `figures/README.md`.
+
+Changes and upload steps are in `CHANGELOG.md` and `UPLOAD_INSTRUCTIONS.md`. See `docs/LOCAL_PACKAGE_CHECKS.json` for the checks actually performed on this local package, not a claim of remote CI or new raw-data training.

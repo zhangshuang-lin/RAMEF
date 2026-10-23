@@ -1,0 +1,71 @@
+{
+  "status": "PASS_LAYOUT_AND_SIGNAL_INTEGRITY",
+  "layout": {
+    "status": "PASS",
+    "issues": [],
+    "canvas_mm": [
+      186.0,
+      140.0
+    ],
+    "minimum_font_pt": 7.0,
+    "text_items": 59,
+    "directed_connections": 19
+  },
+  "overview_minmax_identical": true,
+  "raw_local_640_points_identical": true,
+  "raw_local_csv_sha256": "9ec91aa7fcda05639866854e2714ccb2b3ad4f880ad5abad6e11cc80bbd80107",
+  "local_line_simplification": false,
+  "white_background": true,
+  "both_axis_colour": "#26313A",
+  "both_axis_width_pt": 0.75,
+  "method_flow_unchanged": true,
+  "manuscript_modified": false,
+  "query_read": false,
+  "source_example": {
+    "source_role": "PU source training",
+    "source_identity": "N15_M07_F10_KA22_14",
+    "channel_name": "vibration_1",
+    "source_precision": "float64",
+    "unit_metadata_present": false,
+    "source_file_sha256": "7ebd5c21a5c2734837ffaaaef7c00e867dbe9be75e7b24ba80d40a0bf6b57a2a",
+    "split_sha256": "0e7bf770e4de2037deff8471d2235c1b4493026e6b91b667def34d38881b3156",
+    "samples": 256003,
+    "sample_rate_hz": 64000,
+    "nominal_rpm": 1500,
+    "block_starts": [
+      0,
+      34231,
+      68463,
+      102694,
+      136925,
+      171156,
+      205388,
+      239619
+    ],
+    "block_length": 16384,
+    "display": {
+      "overview": "fixed-bin min-max amplitude ranges; not a reconstructed waveform",
+      "bins": 640,
+      "all_samples_assigned_to_bins": true,
+      "raw_min": -1.6510009754714112,
+      "raw_max": 1.2634277335400448,
+      "overview_min": -1.6510009754714112,
+      "overview_max": 1.2634277335400448,
+      "detail_block_1_based": 4,
+      "detail_start_index": 102694,
+      "detail_stop_index_exclusive": 103334,
+      "detail_start_seconds": 1.60459375,
+      "detail_nominal_duration_ms": 10.0,
+      "detail_samples": 640,
+      "detail_sample_stride": 1,
+      "raw_float64_sha256": "f4c2c6dd62dd96c84654d318adec0aa4a7a42832dd0e7b7f41a560f2c887bd94",
+      "detail_float64_sha256": "0d9e78bd19909f8dd8ad713c804ac5b50c169c49710b8a489407360ccbc022e3",
+      "detail_min": -0.5737304683708416,
+      "detail_max": 0.6469726558224383,
+      "amplitude_normalised": false,
+      "filtering": false,
+      "physical_amplitude_unit": "not specified in original channel metadata",
+      "sample_time": "index / nominal sampling frequency"
+    }
+  }
+}

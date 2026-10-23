@@ -1,0 +1,70 @@
+{
+  "manuscript": "RAMEF_MSSP_English_Manuscript_V24_Final_Clarified_20261023.docx",
+  "artwork": [
+    {
+      "file": "figures/current/Figure_01.svg",
+      "sha256": "da1fb1f265d746e54ed54cc6666648a54b5f1cfa94f61ef4ce170df18ee9afee",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_02.svg",
+      "sha256": "230a6374c8ae76de63b99406739ccbc0f2552154c737c857e999f2503e3e081b",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_03.svg",
+      "sha256": "86f2a88e4a834c86e25dcbc62b4c166639dfaf3632c5cad96e300436b7d93def",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_04.svg",
+      "sha256": "95fe56b9492f4083948786fa4d8c0f56eb3fc0504707b78f256382c83bae0715",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_05.svg",
+      "sha256": "afb2f1b5eb9c0f6f414382a8066b73fb8c80f2b89ecb8a90ef037f0d35c5ee47",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_06.svg",
+      "sha256": "05f0366453c86fa1a39d2c1cd45e3830dec42d18238c8f6d6ac870ba7a98a054",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_07.svg",
+      "sha256": "fac4118a4feba96d0427073cc8f10b682f9c8d28af935a8b78628d674f0573ed",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_08.svg",
+      "sha256": "6b598a5bad564ef5e756ca8df2192b12f715721b35bc5b0ec72ddfbe1dd37563",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_09.svg",
+      "sha256": "64a2310e73281beecc32cc40d7cc326bfbf33adfa0ac31f65a49f55e6db1d715",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_10.svg",
+      "sha256": "d064037130191b1b05377b5e2306cb3366e87ca3c8ebee657533f20963ec3ea7",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Figure_11.svg",
+      "sha256": "5da5309580d0ad18af8ac34e16b581dd76daa8ae70c1d6addb065f2e762fdbae",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Graphical_Abstract.svg",
+      "sha256": "c5b5e746b0d405b5610daf74385b38db38ac9a58f0d2df1db687dc0ebfcc4deb",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    },
+    {
+      "file": "figures/current/Supplementary_Figure_S1.svg",
+      "sha256": "30da9a170dcf0c084192524e5a9772a999fa24b41c599dd09504463854ebfb17",
+      "source_role": "Exact final submission-package SVG; not newly plotted"
+    }
+  ]
+}

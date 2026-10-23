@@ -1,0 +1,28 @@
+{
+  "package_version": "2026.10.23-submission-sync",
+  "prepared_date": "2026-10-23",
+  "repository_url": "https://github.com/zhangshuang-lin/RAMEF",
+  "parent_public_commit": "1c75f7eab840a1b7d48801a08c29beadb4bb974f",
+  "parent_public_commit_date": "2026-10-23",
+  "new_public_commit": null,
+  "release_tag": null,
+  "archival_doi": null,
+  "publication_status": "Unpublished manuscript prepared for submission; no acceptance or publication is claimed",
+  "manuscript": {
+    "filename": "RAMEF_MSSP_English_Manuscript_V24_Final_Clarified_20261023.docx",
+    "title": "Rotation-aware measurement evidence fusion for cross-speed five-shot bearing fault diagnosis",
+    "sha256": "692305828399eb351c75fd6312f862235f7331786926248099d95ce8a7930314",
+    "included": false
+  },
+  "supplement": {
+    "filename": "RAMEF_MSSP_English_Supplementary_V18_Final_Clarified_20261023.docx",
+    "sha256": "e9d9716f1e3723652a8d770ff3a6380ed22fd0bdf9bfe34973c1fb88fe2af884",
+    "included": false
+  },
+  "method_display_name": "RAMEF",
+  "historical_alias": "RAMEF-F",
+  "historical_code_protocol_prediction_and_model_identity_files": "Retained byte-for-byte from the parent public Git snapshot",
+  "source_waveform_assets": "Not distributed; metadata and exact source requirements documented",
+  "software_licence": "No new licence granted; author confirmation remains pending",
+  "readiness_scope": "Technical upload package; not a full locked-model deposit or confirmation of third-party redistribution rights"
+}
