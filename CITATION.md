@@ -14,8 +14,8 @@ journal publication, acceptance, article number or DOI is claimed.
 
 Repository: https://github.com/zhangshuang-lin/RAMEF
 
-Locally prepared package: `2026.10.23-submission-sync`.
-Parent public commit: `1c75f7eab840a1b7d48801a08c29beadb4bb974f`.
+Locally prepared package: `2026.10.23-readme-final`.
+Parent public commit: `e7052d54a1f71b9822ebc92968617bfff83abdf0`.
 The updated public commit/tag should be cited after this package is uploaded and
 checked. Its identity cannot be assigned before the actual GitHub commit exists.
 

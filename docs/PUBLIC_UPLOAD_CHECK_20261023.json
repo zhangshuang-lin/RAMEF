@@ -1,0 +1,152 @@
+{
+  "inspected_public_commit": "e7052d54a1f71b9822ebc92968617bfff83abdf0",
+  "public_commit_date": "2026-10-23",
+  "remote_files": 208,
+  "expected_files": 209,
+  "byte_identical_files": 187,
+  "missing_files": [
+    ".gitattributes"
+  ],
+  "extra_files": [],
+  "changed_files": [
+    ".gitignore",
+    "CHANGELOG.md",
+    "CITATION.md",
+    "MANIFEST.sha256",
+    "README.md",
+    "README_en.md",
+    "README_zh.md",
+    "UPLOAD_CHECKLIST.md",
+    "UPLOAD_INSTRUCTIONS.md",
+    "docs/CODE_AVAILABILITY_TEMPLATE.md",
+    "docs/LOCAL_PACKAGE_CHECKS.json",
+    "docs/MANUSCRIPT_MAP.md",
+    "docs/MANUSCRIPT_VERSION.json",
+    "docs/SOURCE_PROVENANCE.csv",
+    "docs/SOURCE_PROVENANCE_TRANSPORT.json",
+    "figures/README.md",
+    "figures/current/ARTWORK_MANIFEST.json",
+    "figures/source/fig1/make_ramef_workflow_v15_corrected_20261022.py",
+    "figures/source/fig1/make_ramef_workflow_v16_linked_observation_20261022.py",
+    "scripts/verify_bundle.py",
+    "tests/test_verify_bundle.py"
+  ],
+  "manifest_failures": [
+    {
+      "file": ".gitattributes",
+      "reason": "missing"
+    },
+    {
+      "file": ".gitignore",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "CITATION.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "docs/CODE_AVAILABILITY_TEMPLATE.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "docs/LOCAL_PACKAGE_CHECKS.json",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "docs/MANUSCRIPT_MAP.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "docs/MANUSCRIPT_VERSION.json",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "docs/SOURCE_PROVENANCE.csv",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "docs/SOURCE_PROVENANCE_TRANSPORT.json",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "figures/current/ARTWORK_MANIFEST.json",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "figures/README.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "figures/source/fig1/make_ramef_workflow_v15_corrected_20261022.py",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "figures/source/fig1/make_ramef_workflow_v16_linked_observation_20261022.py",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "README.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "README_en.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "README_zh.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "scripts/verify_bundle.py",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "tests/test_verify_bundle.py",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "UPLOAD_CHECKLIST.md",
+      "reason": "sha256_mismatch"
+    },
+    {
+      "file": "UPLOAD_INSTRUCTIONS.md",
+      "reason": "sha256_mismatch"
+    }
+  ],
+  "scientific_files_preserved": 148,
+  "extra_wrapper_directory": false,
+  "raw_training": false,
+  "target_model_inference": false,
+  "verify_exit_code": 2,
+  "tests_exit_code": 0,
+  "replay_exit_code": 0,
+  "format_only_changes": [
+    "CHANGELOG.md",
+    "CITATION.md",
+    "MANIFEST.sha256",
+    "README.md",
+    "README_en.md",
+    "README_zh.md",
+    "UPLOAD_CHECKLIST.md",
+    "UPLOAD_INSTRUCTIONS.md",
+    "docs/CODE_AVAILABILITY_TEMPLATE.md",
+    "docs/LOCAL_PACKAGE_CHECKS.json",
+    "docs/MANUSCRIPT_MAP.md",
+    "docs/MANUSCRIPT_VERSION.json",
+    "docs/SOURCE_PROVENANCE.csv",
+    "docs/SOURCE_PROVENANCE_TRANSPORT.json",
+    "figures/README.md",
+    "figures/current/ARTWORK_MANIFEST.json",
+    "figures/source/fig1/make_ramef_workflow_v15_corrected_20261022.py",
+    "figures/source/fig1/make_ramef_workflow_v16_linked_observation_20261022.py",
+    "scripts/verify_bundle.py",
+    "tests/test_verify_bundle.py"
+  ],
+  "substantive_changes": [
+    ".gitignore"
+  ]
+}

@@ -585,5 +585,46 @@
     }
   ],
   "scientific_source_bytes_changed_by_this_update": false,
-  "scope": "Current distribution identity only; original scientific protocol/model/evaluation-lock hashes unchanged"
+  "scope": "Current distribution identity only; original scientific protocol/model/evaluation-lock hashes unchanged",
+  "readme_final_update": {
+    "parent_public_commit": "e7052d54a1f71b9822ebc92968617bfff83abdf0",
+    "scope": "Current distributed file identities; no historical experiment/model/protocol hashes changed",
+    "updates": [
+      {
+        "file": "README_en.md",
+        "previous_distributed_sha256": "9095a24d94b1a974fc77d9bbbab6bfeca8d0bc9f9e3e37a36a15d87018377fcc",
+        "current_distributed_sha256": "f8c1e1f687358f61caaad1b2687bb3deeae0793ca4a880f3c8abaa121eef0213"
+      },
+      {
+        "file": "README_zh.md",
+        "previous_distributed_sha256": "92871d8dd2f83eeb7d3cdb6b49339e8e99fb436806fcd06716b73204dbf19366",
+        "current_distributed_sha256": "fe9da9c5606eeb022bd3e2e73f60c4a3538a6787c8bd765a98f0ba66504c1dc8"
+      },
+      {
+        "file": "UPLOAD_CHECKLIST.md",
+        "previous_distributed_sha256": "17c8763c0056e86d94ea306371c4b7b8b1b5bb00ea90b40aaed794ab841dfd21",
+        "current_distributed_sha256": "c2cae8a3ffab3ffb175ea652970c4277816c695e879c8f18b876b750233de7a8"
+      },
+      {
+        "file": "scripts/verify_bundle.py",
+        "previous_distributed_sha256": "10b60ad77811dd8f40a7b22b77a123a977f2b382251b975ac35f064daff29845",
+        "current_distributed_sha256": "e43726ac14c6b47da72c3efbe42c4db11d8b30ce637bb3858540d684fe4ab903"
+      },
+      {
+        "file": "README.md",
+        "previous_distributed_sha256": "92871d8dd2f83eeb7d3cdb6b49339e8e99fb436806fcd06716b73204dbf19366",
+        "current_distributed_sha256": "f8c1e1f687358f61caaad1b2687bb3deeae0793ca4a880f3c8abaa121eef0213"
+      },
+      {
+        "file": "figures/source/fig1/make_ramef_workflow_v15_corrected_20261022.py",
+        "previous_distributed_sha256": "19f25a9c327bb7b4cd62471f47350eb4782ba17191f8917d9179d69d2b65dfd2",
+        "current_distributed_sha256": "61b543d9f1a945c2bbf2754d4819736ffa4cd0076fbd043ed7067400c68cfb48"
+      },
+      {
+        "file": "figures/source/fig1/make_ramef_workflow_v16_linked_observation_20261022.py",
+        "previous_distributed_sha256": "f1037a33f07d1be6679b25e60fa4e62917effd6787a669a15a029c51875251a9",
+        "current_distributed_sha256": "57c3867e28bea84cb50f9bc5d0210777f389b181563e9d1c8b22a85c3093ceb2"
+      }
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
-  "package_version": "2026.10.23-submission-sync",
+  "package_version": "2026.10.23-readme-final",
   "prepared_date": "2026-10-23",
   "repository_url": "https://github.com/zhangshuang-lin/RAMEF",
-  "parent_public_commit": "1c75f7eab840a1b7d48801a08c29beadb4bb974f",
+  "parent_public_commit": "e7052d54a1f71b9822ebc92968617bfff83abdf0",
   "parent_public_commit_date": "2026-10-23",
   "new_public_commit": null,
   "release_tag": null,
@@ -24,5 +24,7 @@
   "historical_code_protocol_prediction_and_model_identity_files": "Retained byte-for-byte from the parent public Git snapshot",
   "source_waveform_assets": "Not distributed; metadata and exact source requirements documented",
   "software_licence": "No new licence granted; author confirmation remains pending",
-  "readiness_scope": "Technical upload package; not a full locked-model deposit or confirmation of third-party redistribution rights"
+  "readiness_scope": "Technical upload package; not a full locked-model deposit or confirmation of third-party redistribution rights",
+  "previous_package_version": "2026.10.23-submission-sync",
+  "readme_language": "English homepage; Chinese README_zh.md; README_en.md mirrors homepage"
 }

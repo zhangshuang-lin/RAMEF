@@ -1,5 +1,13 @@
 # Changes
 
+## 2026.10.23-readme-final
+
+- Rewrote the English homepage and Chinese README around method, quick start, tasks/results, data-dependent execution and file access.
+- Repaired the missing .gitattributes and outdated .gitignore detected in the uploaded snapshot e7052d5.
+- Reconciled current distribution checksums with exact delivered bytes; scientific records and historical experiment hashes remain unchanged.
+- Public uploaded snapshot tests and prediction replay passed; its distribution verification had failed before these repairs. New local checks apply to this package, not to a future public commit.
+
+
 ## 2026.10.23-submission-sync — locally prepared update
 
 Based on the public `main` snapshot `1c75f7eab840a1b7d48801a08c29beadb4bb974f`.

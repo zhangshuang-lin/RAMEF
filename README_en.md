@@ -1,88 +1,214 @@
-# RAMEF: code and prediction replay
+# RAMEF
 
-This repository accompanies **Rotation-aware measurement evidence fusion for cross-speed five-shot bearing fault diagnosis**. RAMEF combines distributed non-overlapping observation, a U2-Hz carrier representation, a 63-coordinate soft-order descriptor, and a target-support-calibrated linear classifier.
+**Rotation-aware measurement evidence fusion for cross-speed five-shot bearing fault diagnosis**
 
-The public project is hosted at https://github.com/zhangshuang-lin/RAMEF. This locally prepared update is version `2026.10.23-submission-sync`; its manuscript and supplementary identities are recorded in `docs/MANUSCRIPT_VERSION.json`. It contains code, prediction/reference material and the final vector artwork, but no third-party raw recordings, feature caches, checkpoints, fitted classifiers or manuscript PDFs. This package is not a claim that the update has already been uploaded or assigned a release DOI.
+[中文说明](README_zh.md) · [Code and evidence map](docs/MANUSCRIPT_MAP.md) · [Reproducibility guide](docs/REPRODUCIBILITY.md) · [Citation](CITATION.md)
 
-Historical source code and prediction fields retain the alias `RAMEF-F` for the same complete 63-coordinate implementation. Public-facing documentation uses RAMEF; original evidence fields and hashes are not renamed.
+RAMEF combines distributed observation, learned resonance-carrier features,
+geometry-conditioned physical evidence and target-support calibration for
+cross-speed bearing fault diagnosis. It makes **one decision per complete
+physical measurement record**, using five labelled target records per class.
 
-## Start here
+This repository contains model and experiment source code, fixed split manifests,
+archived class predictions, metric-replay tools and manuscript artwork.
 
-From the repository root, use Python 3.10 or later for the standard-library-only checks:
+## Method
 
-```text
+The workflow has three stages:
+
+1. **Observe.** Extract eight distributed, non-overlapping blocks from one
+   record. These blocks increase within-record coverage; they are not additional
+   labelled examples or shots.
+2. **Form and fuse evidence.** Apply the frozen U2-Hz encoder to the standardised
+   Hz-domain view and average the block embeddings. In parallel, compute
+   geometry-conditioned soft BPFO/BPFI evidence and filtered-waveform statistics,
+   then aggregate them into a 63-dimensional physical descriptor. Concatenate
+   the carrier and physical representations at the measurement level.
+3. **Calibrate and diagnose.** Fit a standardiser and a regularised multinomial
+   logistic-regression head using source features and five labelled target
+   supports per class. Freeze this calibration package before query inference.
+
+U2-Hz is trained on source data, selected using source validation and then frozen.
+PU source training uses centre crops; MCC5 source training uses distributed
+blocks. The physical path has no trainable parameters. Query records contribute
+no fitting statistics, parameter updates or model selection during the reported
+calibration/inference procedure.
+
+![RAMEF observation, dual-path evidence fusion and support-calibrated diagnosis](figures/current/Figure_01.svg)
+
+**Naming:** RAMEF is the current method name. `RAMEF-F` in historical scripts,
+prediction fields or logs refers to the same full 63-dimensional implementation;
+those records retain their original names and hashes.
+
+## Quick start: verify and replay
+
+Run the following commands from the repository root with **Python 3.10 or later**.
+These steps use only the Python standard library: no GPU, raw recordings or
+model weights are required.
+
+```bash
 python scripts/verify_bundle.py
 python -m unittest discover -s tests -v
 python scripts/replay_paper_results.py --output-dir runs/replay01
 ```
 
-The replay command reads the packaged class predictions, recomputes metrics, and compares them with the supplied expected results. It does **not** load waveforms, train a model, select a checkpoint, or run new target inference. Results are written to a new working directory rather than replacing the archived evidence.
+Use an output directory that does not already exist. Prediction replay recomputes
+scores from the archived class predictions; it does not train a network or
+perform new model inference.
 
-## Repository guide
-
-| Directory | Contents |
+| Output | Contents |
 |---|---|
-| `scripts/` | Bundle verification, prediction replay, and the portable MCC5 pipeline entry point |
-| `code/` | Historical experiment scripts and their local Python dependencies; file-location adaptations are documented |
-| `evidence/pu/` | PU prediction ledgers and the reference results used for replay |
-| `evidence/mcc5/` | MCC5 prediction ledgers and reference metadata |
-| `figures/` | Selected figure source scripts and public numerical source data |
-| `docs/` | Script index, manuscript mapping, execution requirements, and provenance |
-| `tests/` | Standard-library-only bundle/replay tests |
+| `pu_metrics.csv` | PU metrics and confusion matrices, with one vote per distinct measurement |
+| `mcc5_seed_metrics.csv` | MCC5 run-level metrics for each method and seed |
+| `seed_summary.csv` | Seed means and sample standard deviations |
+| `summary.json` | Reference-value checks, input hashes and scoring definitions |
 
-See `docs/SCRIPT_INDEX.md` for the role and prerequisites of each script and `docs/MANUSCRIPT_MAP.md` for the manuscript-to-artifact mapping. A script being included does not mean that every historical workflow can run from this lightweight checkout alone.
+The local distribution checks cover **41 unit tests**, complete file-manifest
+verification, prediction replay and a Windows Git line-ending round trip. See
+[the recorded checks](docs/LOCAL_PACKAGE_CHECKS.json) for their scope and runtime.
 
-## What the prediction replay checks
+## Tasks and reference results
 
-### PU development cohort
+### PU: cross-speed real-damage development task
 
-The primary unit is one vote per distinct measurement: **171 measurements**, not 240 independent records. The 240-entry ledger is retained as historical provenance where included. The locked centre-crop, U2-Hz-DM8, and RAMEF results are:
+The three source conditions D0, DM and DF operate at 1500 rpm; the target condition
+DS operates at 900 rpm. The task classifies normal (N), inner-race fault (IR) and
+outer-race fault (OR) states. Source training and validation contain 816 and 204
+measurements. After encoder selection, all 1020 source measurements and 15 target
+supports form the final calibration cohort.
 
-| Method | Accuracy (%) | Macro-F1 (%) |
+Each of the **171 distinct query measurements** is counted once: 55 N, 62 IR and
+54 OR. Support and query measurement identities are disjoint.
+
+| Locked method | Accuracy (%) | Macro-F1 (%) |
 |---|---:|---:|
 | Centre-crop U2-Hz | 88.89 | 88.16 |
 | U2-Hz-DM8 | 97.66 | 97.55 |
 | RAMEF | 98.83 | 98.78 |
 
-The separate new-five-seed RAMEF summary is **94.04% ± 1.91% Accuracy** and **93.76% ± 2.00% Macro-F1**. The standard deviations describe encoder-initialisation variability on the same measurement cohort. The PU query had been accessed during project development; these are locked, historically accessed **development-cohort** results. Measurement isolation is not bearing-specimen isolation, and blocks do not count as shots.
+A separate five-seed RAMEF rerun, with seeds fixed before that rerun, gives
+**94.04% ± 1.91% Accuracy** and **93.76% ± 2.00% Macro-F1**. It is reported
+separately from the locked single-model result.
 
-### MCC5 run-level stress test
+The historical 240-entry ledger contains repeated measurement identities; replay
+checks duplicate-prediction consistency before collapsing them. PU query records
+were accessed during earlier project development, so these results describe a
+**locked, historically accessed development cohort**, not untouched external
+confirmation or unseen-bearing-specimen generalisation.
 
-The original locally prespecified experiment used 42 source-training runs, 42 separate source-validation runs, 15 target-support runs, and **27 fixed target-query runs** (NRF/IR/OR = 13/7/7). Five seeds share those same 27 query runs; they are not five independent test cohorts. The original 63-coordinate RAMEF result is **96.30% ± 2.62% Accuracy** and **96.23% ± 2.81% Macro-F1**.
+### MCC5: run-level race localisation under motor-fault interference
 
-NRF means no inner- or outer-race fault; it need not mean a globally healthy motor. The task is run-level race localisation in the presence of structured motor-fault interference, not unseen-bearing-specimen confirmation. The local protocol freeze is not third-party preregistration. Later capacity/dimension and encoder-by-physics controls are post-target analyses; their results, including the compact-fusion 99.26% control, do not replace the original 96.30% result. Query-free support audits concern the registered 15-support neighbourhood.
+The locally prespecified MCC5 task uses 42 source-training runs tagged 3000 rpm,
+42 source-validation runs tagged 2000 rpm, and a 1000-rpm-tagged target set of
+15 supports plus **27 query runs**. The query contains 13 no-race-fault (NRF),
+7 IR and 7 OR runs. Final calibration uses the 42 source-training runs and
+15 supports, excluding the source-validation runs.
 
-## Training or fresh inference on MCC5
+NRF means no inner- or outer-race fault, not necessarily a globally healthy motor.
+IR and OR include pure race faults and compound motor/race faults. Ball faults
+and simultaneous inner-/outer-race faults are excluded.
 
-Obtain MCC5-THU Motor data separately from its official provider and follow its terms. Use a fresh work directory and supply the directory expected by the data loader explicitly:
+| Locally prespecified comparison | Accuracy (%) | Macro-F1 (%) |
+|---|---:|---:|
+| U2-Hz-LM8: local eight-block carrier | 67.41 ± 4.06 | 60.25 ± 7.18 |
+| U2-Hz-DM8: distributed eight-block carrier | 79.26 ± 6.20 | 75.17 ± 7.11 |
+| RAMEF | 96.30 ± 2.62 | 96.23 ± 2.81 |
 
-```text
+Values are **mean ± sample SD across five encoder seeds on the same 27 runs**,
+not five independent cohorts or population confidence intervals. MCC5 supplies
+a locally prespecified **run-level mechanistic stress test**, not third-party
+preregistration or specimen-level confirmation. Query-free support audits concern
+the registered 15-support neighbourhood. Subsequent capacity, dimension and
+same-physics comparisons remain frozen post-target analyses and do not replace
+the original 96.30% result. CWRU and SQ are supplementary ceiling controls.
+
+## Running MCC5 from raw data
+
+Obtain MCC5-THU Motor recordings separately from the dataset provider under its
+terms. Install the modelling dependencies and a suitable PyTorch build:
+
+```bash
+python -m pip install -r requirements-model.txt
+```
+
+`requirements-model.txt` does **not** install PyTorch. The recorded experiment
+used Python 3.13.13, PyTorch 2.12.0+cu126, NumPy 2.4.4, SciPy 1.17.1 and
+scikit-learn 1.8.0; complete version metadata are in
+[`configs/recorded_runtime.json`](configs/recorded_runtime.json). These are
+recorded versions, not a guarantee of wheel availability or bitwise-identical
+training on other hardware. The standard-library replay workflow above is separate.
+
+Replace `PATH_TO_MCC5_DATA` with the parent directory containing
+`MCC5-THU Motor_speed_circulation`. Use a fresh work directory:
+
+```bash
+# Inspect the preparation command without reading waveforms.
+python scripts/mcc5_pipeline.py prepare --data-root "PATH_TO_MCC5_DATA" --work-dir runs/mcc5_fresh --dry-run
+
+# Prepare source, source-validation and support data.
 python scripts/mcc5_pipeline.py prepare --data-root "PATH_TO_MCC5_DATA" --work-dir runs/mcc5_fresh
-python scripts/mcc5_pipeline.py train --data-root "PATH_TO_MCC5_DATA" --work-dir runs/mcc5_fresh
+
+# Train on source data and select checkpoints on source validation.
+python scripts/mcc5_pipeline.py train --work-dir runs/mcc5_fresh
+
+# Run the separate locked evaluation stage after selection.
 python scripts/mcc5_pipeline.py evaluate --data-root "PATH_TO_MCC5_DATA" --work-dir runs/mcc5_fresh
 ```
 
-Preparation and training use source/source-validation/support roles. Evaluation is a separate, locked operation after checkpoint selection. Do not remove an evaluation lock to rerun into the same work directory. A new training run is a computational reproduction, not a new independent target cohort.
+Keep original evidence directories unchanged. Do not delete evaluation locks to
+repeat an evaluation in the same workspace. Fresh training is a computational
+reproduction on the existing task, not an independent target cohort. The local
+package tests validate launchers and stored-prediction replay, not a complete
+fresh-machine raw-data training run.
 
-The modelling workflow additionally requires NumPy, SciPy, PyTorch, scikit-learn, joblib, PyYAML, and related dependencies specified by the packaged environment/dependency documentation. Plotting additionally requires matplotlib and pandas. The original deep-learning runtime used PyTorch 2.12.0+cu126, NumPy 2.4.4, SciPy 1.17.1, and scikit-learn 1.8.0. Matching these versions does not guarantee bitwise-identical GPU training. No fresh-machine, raw-data-to-results training validation is claimed by this script-organising release.
+## Repository guide
 
-## Historical PU scripts and figures
+| Location | Contents |
+|---|---|
+| `code/` | Model, physical-descriptor and historical experiment implementations |
+| `scripts/` | Integrity verification, prediction replay and portable MCC5 launcher |
+| `configs/` | Active parameters and recorded software environment |
+| `protocols/` | Dataset splits, role manifests and historical protocols |
+| `evidence/` | Class predictions used for metric replay |
+| `reference/` | Archived statistics and numerical reference inputs |
+| `figures/current/` | Exact final manuscript SVG artwork and its manifest |
+| `figures/source/fig1/` | Current Figure 1 source chain and provenance metadata |
+| `docs/` | Script index, manuscript mapping, model-asset inventory and provenance |
+| `tests/` | Standard-library launcher, metric and distribution tests |
 
-The historical PU entry points are retained with their dependencies for inspection and reuse. Some require stage-specific caches and frozen artifacts that are not distributed. A new portable raw-PU end-to-end training entry point has **not** been implemented in this bundle.
+Useful entry points:
 
-Figure scripts are archived source, not a promise that all manuscript figures rebuild with one command. Some expect the original staged-result layout; the real waveform asset used in Fig. 1 is not redistributed. Public numerical inputs included here can be inspected without the raw datasets. The figure index records current manuscript bindings and historical aliases.
+- [Script index](docs/SCRIPT_INDEX.md): executable entry points and prerequisites.
+- [Manuscript mapping](docs/MANUSCRIPT_MAP.md): sections, tables and code/evidence.
+- [Figure guide](figures/README.md): current artwork, source scripts and external inputs.
+- [Version binding](docs/MANUSCRIPT_VERSION.json): exact main/supplement identities.
+- [Model-asset inventory](docs/EXTERNAL_MODEL_ASSETS.csv): original filenames and hashes.
 
-## Integrity and publication status
+Historical PU/CWRU/SQ runners and some figure scripts require stage-specific
+caches or separately obtained assets. Model checkpoints, fitted classifiers,
+raw recordings, feature caches and manuscript PDFs are **not included**. Figure 1's
+source-waveform CSVs are external prerequisites. Figure 7 reuses frozen
+coordinates rather than refitting t-SNE.
 
-The bundled manifest records file SHA-256 values. Verification detects changed or missing bundle files; it does not certify the chronology of an external preregistration service or establish scientific validity by itself. Original measurement/run identities are retained; portable file-location changes do not redefine the split.
+`.gitattributes` preserves exact file bytes across platforms. If an old Windows
+checkout has already converted line endings, obtain a fresh checkout rather than
+rewriting historical hashes. Current distribution changes and instructions are
+recorded in [CHANGELOG.md](CHANGELOG.md) and
+[UPLOAD_INSTRUCTIONS.md](UPLOAD_INSTRUCTIONS.md).
 
-The repository URL is https://github.com/zhangshuang-lin/RAMEF. The current package retains the manuscript title and has no assigned archival DOI or newly published release tag. See `CITATION.md` for the unpublished-manuscript citation and `docs/MANUSCRIPT_VERSION.json` for exact identities. Software licensing and third-party permissions remain subject to the rights holders' confirmation; this update does not grant a licence. See `LICENSE_STATUS.md`, `THIRD_PARTY_NOTICES.md` and `UPLOAD_CHECKLIST.md`.
+## Citation and rights
 
+The associated manuscript is:
 
-## Byte preservation and current artwork
+> Shuanglin Zhang, Hao Zhang, Liang Zhang and Yuanhang Sun. *Rotation-aware
+> measurement evidence fusion for cross-speed five-shot bearing fault diagnosis*.
+> Unpublished manuscript, 2026.
 
-The repository's `.gitattributes` preserves exact stored bytes, including historical mixed line endings. Use a fresh checkout when an earlier Windows checkout has already converted line endings. Do not renormalise historical protocols, prediction files or evaluation locks to make a checksum pass.
+See [CITATION.md](CITATION.md) for version-aware citation information. No
+publication or archival DOI is assigned in this repository package.
 
-The current Figure 1 source chain is v16 → v15, archived under `figures/source/fig1/`. Final manuscript SVGs are under `figures/current/`; these are publication artwork, not raw waveform deposits. Rebuilding Figure 1 requires the externally obtained source-derived waveform assets documented in `figures/README.md`.
-
-Changes and upload steps are in `CHANGELOG.md` and `UPLOAD_INSTRUCTIONS.md`. See `docs/LOCAL_PACKAGE_CHECKS.json` for the checks actually performed on this local package, not a claim of remote CI or new raw-data training.
+Software licensing and third-party rights are documented in
+[LICENSE_STATUS.md](LICENSE_STATUS.md) and
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). A public repository does not
+itself grant an open-source licence; this package does not assign one or relicense
+the original datasets.
